@@ -11,12 +11,11 @@ subtitle: "XII Congreso Colombiano de Botánica. Popayán, Colombia. Noviembre 4
 
 {{< fa clock >}} Duración: 8 horas
 
-{{< fa money-bill-1 >}} Inversión: desde $50000 COP
+{{< fa money-bill-1 >}} Inversión: desde $50000 COP [(más información)](sec-inversion)
 
 {{< fa file-signature >}} Registrarse: Disponible en breve
 
-{{< fa envelope >}} Más información: alex.espinosa@udea.edu.co
-
+{{< fa envelope >}} Contacto: [alex.espinosa@udea.edu.co](mailto:alex.espinosa@udea.edu.co)
 
 # Descripción
 
@@ -34,15 +33,39 @@ El curso se estructura en un formato teórico-práctico, adoptando un enfoque de
 
 # ¿Este curso es para mi?
 
-# Inversión
+# Inversión {#sec-inversion}
 
-| Tipo de inscripción              | Valor (pesos colombianos) |
+| Tipo de inscripción              | Valor (COP) |
 |----------------------------------|---------------------------|
 | Estudiante asociado ACB 2024     | \$50000                   |
 | Estudiante no asociado ACB 2024  | \$75000                   |
 | Profesional asociado ACB 2024    | \$75000                   |
 | Profesional no asociado ACB 2024 | \$100000                  |
 
+[Cómo afiliarse a la Asociación Colombiana de Botánica (ACB).](https://congresobotanica.org/afiliacion-acb/)
+
 # Instructor
 
+:::: {.columns}
+::: {.column width="25%"}
+![](images/profile.jpeg)
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="70%"}
+¡Hola! Soy [Alex Espinosa Correa](http://alexespinosaco.github.io).
+
+Biólogo y candidato a Doctor en Biología de la Universidad de Antioquia, especializado en el campo de la botánica, la palinología y la aerobiología. Me apasiona la Ciencia Abierta y Reproducible, R, Quarto, la visualización de datos, los SIG, y el software libre y de código abierto (FLOSS).
+:::
+::::
+
 # Licencia
+
+<p xmlns:cc="http://creativecommons.org/ns#">
+
+<a rel="cc:attributionURL" href="https://geobota.github.io/xii-ccb-quarto/">This work</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://alexespinosaco.github.io">Álex Espinosa-Correa</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"/></a>
+
+</p>
