@@ -11,9 +11,11 @@ subtitle: "XII Congreso Colombiano de Botánica. Popayán, Colombia. Noviembre 4
 
 {{< fa clock >}} Duración: 8 horas
 
+{{< fa users >}} Cupos: 20
+
 {{< fa money-bill-1 >}} Inversión: desde $50000 COP [(más información)](sec-inversion)
 
-{{< fa file-signature >}} Registrarse: Disponible en breve
+{{< fa file-signature >}} Registro: disponible en breve
 
 {{< fa envelope >}} Contacto: [alex.espinosa@udea.edu.co](mailto:alex.espinosa@udea.edu.co)
 
@@ -32,6 +34,10 @@ En el mundo académico y científico actual hay una creciente necesidad de trans
 El curso se estructura en un formato teórico-práctico, adoptando un enfoque de aprender haciendo para familiarizar a los estudiantes con los conceptos y habilidades necesarios para llevar a cabo una investigación científica reproducible utilizando Quarto, un sistema de escritura y publicación técnica y académica de código abierto. En la parte teórica del curso, se explorarán los principios fundamentales de la ciencia abierta y reproducible, así como las directrices sobre el uso y manejo de Quarto para la elaboración y publicación de investigaciones reproducibles. En la parte práctica del curso, los estudiantes tendrán la oportunidad de aplicar estos conceptos y habilidades a través de ejercicios prácticos utilizando Quarto, con el objetivo de elaborar documentos reproducibles y aptos para publicación. A lo largo del curso, se promoverá una participación activa de los estudiantes, fomentando el intercambio de ideas y la colaboración entre ellos. Al finalizar el curso, los estudiantes deberán ser capaces de reconocer la importancia y utilidad de realizar investigaciones abiertas y reproducibles, y estarán equipados con las habilidades necesarias para llevar a cabo dichas investigaciones utilizando Quarto.
 
 # ¿Este curso es para mi?
+
+# Requisitos
+
+Debido a las restricciones impuestas por la universidad organizadora, se requiere que cada participante disponga de su propio ordenador personal. En este equipo, deberá estar instalado el software necesario para el desarrollo del curso. Las instrucciones pertinentes se enviarán varios días antes de la fecha programada. 
 
 # Inversión {#sec-inversion}
 
