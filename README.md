@@ -1,6 +1,6 @@
 # Investigación Reproducible con Quarto
 
-## XII Congreso Colombiano de Botánica <br>Popayán, Colombia <br>Noviembre 4 al 8 del 2024. 
+## XII Congreso Colombiano de Botánica <br>Popayán, Colombia <br>Noviembre 4 al 8 del 2024
 
 📅 Fecha: 3 de noviembre del 2024\
 📍 Lugar: Popayán, Colombia\
