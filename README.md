@@ -5,6 +5,6 @@
 📅 Fecha: 3 de noviembre del 2024\
 📍 Lugar: Popayán, Colombia\
 🕗 Duración: 8 horas\
-💲 Inversión: $50000 COP\
-✍️ Registrarse: Disponible en breve\
+💲 Inversión: desde $50.000 COP\ ([ver detalles](https://geobota.github.io/xii-ccb-quarto/#sec-inversion))
+✍️ Registro: Disponible en breve\
 ✉️ Más información: [alex.espinosa\@udea.edu.co](mailto:alex.espinosa@udea.edu.co)
