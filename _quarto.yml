@@ -10,7 +10,22 @@ execute:
 website:
   title: "Investigación Reproducible con Quarto"
   description: "Website del curso Investigación Reproducible con Quarto - XII Congreso Colombiano de Botánica"
-  
+  site-url: https://geobota.github.io/xii-ccb-quarto/
+  repo-url: https://github.com/geobota/xii-ccb-quarto
+
+  page-navigation: true
+  back-to-top-navigation: true
+  bread-crumbs: true
+
+  google-analytics:
+    tracking-id: "G-QKP4WCQ1Q4"
+    anonymize-ip: true
+
+  twitter-card:
+    card-style: summary_large_image
+
+  open-graph: true
+
   navbar:
     # logo: images/logo_reproducible_quarto.png
     right:
@@ -18,13 +33,18 @@ website:
         text: Inicio
       - href: https://congresobotanica.org
         text: XII CCB
+      - href: https://asociacioncolombianadebotanica.com
+        text: ACB
       - href: http://geobota.github.io
         text: GEOBOTA
       - href: https://github.com/geobota/xii-ccb-quarto
         text: "{{< fa brands github >}}"
-  sidebar:
-    style: "docked"
-    logo: images/logo_reproducible_quarto.png
+  # sidebar:
+  #   style: "docked"
+  #   logo: images/logo_reproducible_quarto.png
+
+  page-footer:
+    center: Made by [@alexespinocaco](https://alexespinosaco.github.io) with {{< fa brands r-project >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
 
 format:
   html:
