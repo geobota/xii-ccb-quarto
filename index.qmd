@@ -76,11 +76,51 @@ Conoce como afiliarte en el siguiente enlace: [proceso de afiliación a la ACB](
 :::
 
 ::: {.column width="70%"}
-[**Álex Espinosa Correa**](http://alexespinosaco.github.io) es biólogo y candidato a Doctor en Biología de la Universidad de Antioquia UdeA, especializado en el campo de la botánica, la palinología y la aerobiología. Apasionado de la Ciencia Abierta y Reproducible, R, Quarto, la visualización de datos, los SIG, y el software libre y de código abierto (FLOSS).
+[**Álex Espinosa Correa**](http://alexespinosaco.github.io) es Biólogo y candidato a Doctor en Biología de la Universidad de Antioquia UdeA, especializado en el campo de la botánica, la palinología y la aerobiología. Apasionado de la Ciencia Abierta y Reproducible, R, Quarto, la visualización de datos, los SIG, y el software libre y de código abierto (FLOSS).
 :::
 :::
 
 ***
+
+# Contenido
+
+## Unidad 0: Pre-trabajo
+
+-   Instalación y configuración del software necesario
+
+## Unidad 1: Ciencia abierta y reproducible
+
+-   ¿Qué es la ciencia abierta?
+-   Reproducibilidad y replicabilidad
+
+## Unidad 2: Flujo de trabajo
+
+-   Entorno de Desarrollo Integrado (IDE)
+-   El nombre de las cosas
+-   Proyectos
+-   Entornos reproducibles
+
+## Unidad 3: Introducción a Quarto
+
+-   ¿Qué es Quarto?
+-   Introducción a Markdown
+-   Figuras en Quarto
+-   Tablas en Quarto
+-   Escritura académica en Quarto
+-   Documentos de Quarto
+-   Proyectos de Quarto
+
+## Unidad 4: Control de versiones 
+
+-   Git
+-   GitHub
+-   Usando Git y GitHub
+
+## Unidad 5: Métodos de publicación
+
+-   Quarto Pub
+-   GitHub Pages
+-   Extensiones y plantillas
 
 # Licencia
 
