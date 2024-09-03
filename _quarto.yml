@@ -29,22 +29,32 @@ website:
   navbar:
     # logo: images/logo_reproducible_quarto.png
     right:
-      - href: index.qmd
-        text: Inicio
-      - href: https://congresobotanica.org
-        text: XII CCB
-      - href: https://asociacioncolombianadebotanica.com
-        text: ACB
-      - href: http://geobota.github.io
-        text: GEOBOTA
-      - href: https://github.com/geobota/xii-ccb-quarto
-        text: "{{< fa brands github >}}"
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Otros cursos"
+        menu:
+          - text: "Etnobotánica Cuantitativa en R"
+            href: https://geobota.github.io/xii-ccb-etnobotanica/
+          - text: "Investigación Reproducible con Quarto"
+            href: https://geobota.github.io/xii-ccb-quarto/
+      - text: "XII CCB"
+        href: https://congresobotanica.org/
+      - text: "ACB"
+        href: https://asociacioncolombianadebotanica.com/
+      - text: "GEOBOTA"
+        href: http://geobota.github.io/
+      - icon: facebook
+        href: https://www.facebook.com/geobotaudea/
+      - icon: instagram
+        href: https://www.instagram.com/geobotaudea/
+      - icon: github
+        href: https://github.com/geobota/xii-ccb-quarto/
   # sidebar:
   #   style: "docked"
   #   logo: images/logo_reproducible_quarto.png
 
   page-footer:
-    center: Made by [@alexespinocaco](https://alexespinosaco.github.io) with {{< fa brands r-project >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+    center: Made by [@alexespinosaco](https://alexespinosaco.github.io) with {{< fa brands r-project >}} and [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
 
 format:
   html:
