@@ -35,8 +35,8 @@ website:
         menu:
           - text: "Etnobotánica Cuantitativa en R"
             href: https://geobota.github.io/xii-ccb-etnobotanica/
-          - text: "Investigación Reproducible con Quarto"
-            href: https://geobota.github.io/xii-ccb-quarto/
+          - text: "Introducción a la Aerobiología"
+            href: https://geobota.github.io/xii-ccb-aerobiologia/
       - text: "XII CCB"
         href: https://congresobotanica.org/
       - text: "ACB"
