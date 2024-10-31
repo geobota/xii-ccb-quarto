@@ -1,10 +1,73 @@
 [
   {
+    "objectID": "preparacion/index.html",
+    "href": "preparacion/index.html",
+    "title": "Unidad 0: preparación",
+    "section": "",
+    "text": "Requisitos\n\n\n\nDebido a las restricciones impuestas por la universidad organizadora, se requiere que cada participante disponga de su propio ordenador personal. En este equipo, deberá tener instalado el software necesario para el desarrollo del curso.\nSi está inscrito en el curso y tiene problemas con la instalación, póngase en contacto con los organizadores.\ninstall.packages(\n  c(\n    \"countdown\", \"ethnobotanyR\", \"flextable\", \"fontawesome\", \n    \"ggthemes\", \"gt\", \"here\", \"janitor\", \"palmerpenguins\", \n    \"readxl\", \"showtext\", \"sysfonts\", \"tidyverse\", \"visdat\" \n  )\n)"
+  },
+  {
+    "objectID": "preparacion/index.html#instalar-r",
+    "href": "preparacion/index.html#instalar-r",
+    "title": "Unidad 0: preparación",
+    "section": "Instalar R",
+    "text": "Instalar R\nEste es un paso a paso de cómo instalar R en Windows.\n\nIr a https://posit.co/download/rstudio-desktop/\n\n\n\nIr hasta esta sección de la página. Hacer clic en DOWNLOAD AND INSTALL R\n\n\n\nHacer clic en Download R for Windows\n\n\n\nHacer clic en base\n\n\n\nHacer clic en Download R-4.4.1 for Windows. Esto iniciara la descarga de R-4.4.1-win.exe\n\n\n\nBuscar donde se ha descargado R-4.4.1-win.exe. Hacer doble clic sobre él para abrir. Se abrirá esta ventana. Hacer clic en Aceptar\n\n\n\nHacer clic en Siguiente\n\n\n\nHacer clic en Siguiente\n\n\n\nHacer clic en Siguiente\n\n\n\nHacer clic en Siguiente\n\n\n\nHacer clic en Siguiente\n\n\n\nEsperar a que la instalación termine\n\n\n\nHacer clic en Finalizar\n\n\n\nInstalar RTools\nEs recomendable instalar RTools. Evitaremos algunos problemas al instalar ciertos paquetes\n\nRegresar a esta ventana. Hacer clic en RTools\n\n\n\nHacer clic en RTools 4.4\n\n\n\nHacer clic en Rtools44 installer o 64-bit ARM Rtools44 installer dependiendo de la configuración de su computadora. Comenzará la descarga de rtools44-6335-6327.exe o rtools44-aarch64-6335-6327.exe, respectivamente. Buscar donde se ha descargado el archivo, hacer doble clic y seguir las instrucciones."
+  },
+  {
+    "objectID": "preparacion/index.html#instalar-rstudio",
+    "href": "preparacion/index.html#instalar-rstudio",
+    "title": "Unidad 0: preparación",
+    "section": "Instalar RStudio",
+    "text": "Instalar RStudio\nEste es un paso a paso de cómo instalar RStudio en Windows.\n\nIr a https://posit.co/download/rstudio-desktop/\n\n\n\nIr hasta esta sección de la página. Hacer clic en DOWNLOAD RSTUDIO DESKTOP FOR WINDOWS. Esto iniciara la descarga de RStudio-2024.09.0-375.exe\n\n\n\nBuscar donde se ha descargado RStudio-2024.09.0-375.exe. Hacer doble clic sobre él para abrir. Se abrirá esta ventana. Hacer clic en Siguiente\n\n\n\nHacer clic en Instalar\n\n\n\nEsperar a que la instalación termine\n\n\n\nHacer clic en Terminar"
+  },
+  {
+    "objectID": "preparacion/index.html#instalar-quarto",
+    "href": "preparacion/index.html#instalar-quarto",
+    "title": "Unidad 0: preparación",
+    "section": "Instalar Quarto",
+    "text": "Instalar Quarto\n\nIr a https://quarto.org. Hacer clic en Get Started\n\n\n\nHacer clic en Download Quarto CLI. Esto iniciara la descarga de quarto-1.6.32-win.msi\n\n\n\nBuscar donde se ha descargado quarto-1.6.32-win.msi. Hacer doble clic sobre él para abrir. Se abrirá esta ventana. Hacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nEsperar a que termine\n\n\n\nHacer clic en Finish\n\n\n\nInstalar TinyTex\n\nAbrir RStudio (la apariencia puede variar)\n\n\n\nHacer clic en la pestaña Terminal que se encuentra en el lado izquierdo\n\n\n\nCopiar el siguiente código. Pegar en la Terminal usando Ctrl-Shift-VCtrl-Shift-V. Presionar EnterEnter\n\n\n\nTerminal\n\nquarto install tinytex\n\n\n\nEsperar a que termine la descarga e instalación de TinyTex\n\n\n\nAl finanilizar la descarga e instalación, la terminal se ha de ver así"
+  },
+  {
+    "objectID": "preparacion/index.html#instalar-git",
+    "href": "preparacion/index.html#instalar-git",
+    "title": "Unidad 0: preparación",
+    "section": "Instalar Git",
+    "text": "Instalar Git\n\nIr a https://git-scm.com. Hacer clic en Download for Windows\n\n\n\n\n\n\n\n\nAlternativa de descarga\n\n\n\n\n\nIr a https://gitforwindows.org. Hacer clic en Download. Esto iniciara la descarga de GitHubDesktopSetup-x64.exe\n\n\n\n\n\nHacer clic en Click here to download. Esto iniciara la descarga de GitHubDesktopSetup-x64.exe\n\n\n\nBuscar donde se ha descargado GitHubDesktopSetup-x64.exe. Hacer doble clic sobre él para abrir. Se abrirá esta ventana. Hacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nEsperar a que la instalación termine\n\n\n\nHacer clic en Finish"
+  },
+  {
+    "objectID": "preparacion/index.html#instalar-github-desktop",
+    "href": "preparacion/index.html#instalar-github-desktop",
+    "title": "Unidad 0: preparación",
+    "section": "Instalar GitHub Desktop",
+    "text": "Instalar GitHub Desktop\n\nIr a https://github.com/apps/desktop. Hacer clic en Download now\n\n\n\nHacer clic en Download for Windows (64bit). Esto iniciara la descarga de GitHubDesktopSetup-x64.exe\n\n\n\nBuscar donde se ha descargado GitHubDesktopSetup-x64.exe. Hacer doble clic sobre él para abrir. Se abrirá esta ventana\n\n\n\nEsperar hasta que termine al instalación y aparezca esta ventana"
+  },
+  {
+    "objectID": "preparacion/index.html#instalar-zotero",
+    "href": "preparacion/index.html#instalar-zotero",
+    "title": "Unidad 0: preparación",
+    "section": "Instalar Zotero",
+    "text": "Instalar Zotero\n\nIr a https://www.zotero.org. Hacer clic en Download\n\n\n\nHacer clic en Download (64-bit). Esto iniciara la descarga de Zotero-7.0.9_x64_setup.exe\n\n\n\nBuscar donde se ha descargado Zotero-7.0.9_x64_setup.exe. Hacer doble clic sobre él para abrir. Se abriá esta ventana. Esperar a que el proceso termine\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Next\n\n\n\nHacer clic en Install\n\n\n\nEsperar a que la instalación termine\n\n\n\nHacer clic en Finish"
+  },
+  {
+    "objectID": "preparacion/index.html#descargar-los-archivos-clonar-el-repositorio-del-curso",
+    "href": "preparacion/index.html#descargar-los-archivos-clonar-el-repositorio-del-curso",
+    "title": "Unidad 0: preparación",
+    "section": "Descargar los archivos (clonar el repositorio) del curso",
+    "text": "Descargar los archivos (clonar el repositorio) del curso\n\n\n\n\n\n\nImportante\n\n\n\nSi está inscrito al curso, descargue los materiales (clone el repositorio) del curso https://github.com/geobota/quarto-workshop el sábado 2 de noviembre por la mañana.\n\n\n\nIr a https://github.com/geobota/quarto-workshop\nHacer clic en &lt;&gt; Code y copiar la URL bajo la pestaña HTTPS https://github.com/geobota/quarto-workshop.git\n\n\n\n\n\n\n\nTip\n\n\n\nEn este punto, podría descargar los archivos. Hacer clic en la opción Download zip. Esto descargará el archivo quarto-workshop-main.zip, el cual tendrá que descomprimir.\n\n\n\nEn RStudio, ir a File &gt; New Project &gt; Version Control &gt; From Git &gt; pegar la URL en el cuadro de Repository URL. Hacer clic en Create Project. Esperar a que termine\n\n\n\n\nTomado de Get Started with Quarto\n\n\n\n\n\n\n\n\nTip\n\n\n\nEn en el cuadro de Create project as subdirectory of puede elegir el directorio donde quiere descargar el repositorio."
+  },
+  {
+    "objectID": "preparacion/index.html#instalar-los-paquetes-de-r-necesarios",
+    "href": "preparacion/index.html#instalar-los-paquetes-de-r-necesarios",
+    "title": "Unidad 0: preparación",
+    "section": "Instalar los paquetes de R necesarios",
+    "text": "Instalar los paquetes de R necesarios\n\nAbrir RStudio (la apariencia puede variar)\n\n\n\nCopiar el siguiente código. Pegar en la Console usando Ctrl-CCtrl-C, Presionar EnterEnter\n\n\ninstall.packages(\n  c(\n    \"countdown\", \"ethnobotanyR\", \"flextable\", \"fontawesome\", \n    \"ggthemes\", \"gt\", \"here\", \"janitor\", \"palmerpenguins\", \n    \"readxl\", \"showtext\", \"sysfonts\", \"tidyverse\", \"visdat\" \n  )\n)\n\n\nLa descarga e instalación de paquetes puede tardar según su conexión a internet y las especificaciones de su equipo."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Investigación Reproducible con Quarto",
     "section": "",
-    "text": "Fecha: 3 de noviembre del 2024\n Lugar: Popayán, Colombia\n Duración: 8 horas\n Cupos: 20\n Inversión: desde $50.000 COP (ver detalles)\n Inscripción: en la página del XII Congreso Colombiano de Botánica\n Contacto: alex.espinosa@udea.edu.co"
+    "text": "Fecha: 3 de noviembre del 2024\n Horario: 09:00 - 13:00 y 14:00 - 18:00\n Lugar: Salón 219 de posgrado, Facultad de Ciencias Naturales, Exactas y de la Educación, Universidad del Cauca, Popayán, Colombia\n\n Cupos: 20\n Inversión: desde $50.000 COP (ver detalles)\n Inscripción: en la página del XII Congreso Colombiano de Botánica\n Contacto: alex.espinosa@udea.edu.co"
   },
   {
     "objectID": "index.html#unidad-0-pre-trabajo",
