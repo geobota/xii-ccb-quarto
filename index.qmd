@@ -7,9 +7,11 @@ subtitle: "XII Congreso Colombiano de Botánica <br>Popayán, Colombia <br>Novie
 
 {{< fa calendar-days >}} **Fecha:** 3 de noviembre del 2024
 
-{{< fa location-dot >}} **Lugar:** Popayán, Colombia
+{{< fa clock >}} **Horario:** 09:00 - 13:00 y 14:00 - 18:00
 
-{{< fa clock >}} **Duración:** 8 horas
+{{< fa location-dot >}} **Lugar:** Salón 219 de posgrado, Facultad de Ciencias Naturales, Exactas y de la Educación, Universidad del Cauca, Popayán, Colombia
+
+<!-- {{< fa clock >}} **Duración:** 8 horas -->
 
 {{< fa users >}} **Cupos:** 20
 
@@ -86,7 +88,7 @@ Conoce como afiliarte en el siguiente enlace: [proceso de afiliación a la ACB](
 
 ## Unidad 0: Pre-trabajo
 
--   Instalación y configuración del software necesario
+-   [Instalación y configuración del software necesario](preparacion/)
 
 ## Unidad 1: Ciencia abierta y reproducible
 

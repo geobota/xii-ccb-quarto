@@ -31,6 +31,8 @@ website:
     right:
       - text: "Inicio"
         href: index.qmd
+      - text: "Preparación"
+        href: preparacion/index.qmd
       - text: "Otros cursos"
         menu:
           - text: "Etnobotánica Cuantitativa en R"
