@@ -1,0 +1,148 @@
+---
+title: "Investigación Reproducible con Quarto"
+subtitle: "XII Congreso Colombiano de Botánica"
+author:
+  - name: "Álex Espinosa Correa"
+    affiliation: "Universidad de Antioquia"
+# date: 2024-11-02
+
+format: 
+  revealjs:
+    theme:
+      - simple
+      - ../custom.scss
+    width: 1920
+    height: 1080
+    embed-resources: true
+    slide-number: true
+    preview-links: true
+    controls: true
+    touch: false
+    # chalkboard: true
+    logo: "https://github.com/geobota/geobota.github.io/blob/main/images/xii-ccb/xii-ccb-logo.png?raw=true"
+    footer: "[Etnobotánica Cuantitativa en R](https://geobota.github.io/xii-ccb-etnobotanica/)"
+---
+
+```{r}
+#| label: setup
+
+if (!require("fontawesome")) install.packages("fontawesome")
+```
+
+```{r}
+#| label: countdown
+#| echo: false
+library(countdown)
+countdown_timer <- function(
+    minutes = 1, 
+    play_sound = TRUE, 
+    font_size = "2em", 
+    ...
+) {
+  countdown(
+    minutes = minutes,
+    play_sound = play_sound,
+    color_border              = "#white",
+    color_text                = "white",
+    color_running_background  = "#009E73",
+    color_running_text        = "white",
+    color_finished_background = "#D55E00",
+    color_finished_text       = "white",
+    font_size = font_size,
+    ...
+  )
+}
+```
+
+## Quienes somos {.smaller}
+
+### Álex
+
+![](/images/profile.jpeg){fig-align="center"}
+
+-   Biólogo (UdeA)
+-   Candidato a Doctor en Biología (UdeA)
+-   Aerobiología y botánica
+-   Ciencia abierta y reproducible
+-   Ciencia de datos
+-   `r fontawesome::fa("mastodon")` [\@alexespinosaco\@mstdn.social](https://mstdn.social/@alexespinosaco)
+:::
+:::
+
+## Antes de comenzar
+
+::: columns
+::: {.column .fragment .incremental width="50%"}
+### Asumimos
+
+-   `r fontawesome::fa("r-project")` Poco o nulo conocimiento en código (R)
+-   `r fontawesome::fa("markdown")` Poco o nulo conocimiento en Markddown
+-   <img src="https://raw.githubusercontent.com/quarto-dev/quarto-web/main/favicon.png" style="display: inline-block; margin: 0; margin-bottom: -2px; height: 35px;"/></img> Poco o nulo conocimiento en Quarto
+-   `r fontawesome::fa("leaf")` Poco o nulo conocimiento en reproducibilidad
+:::
+
+::: {.column .fragment .incremental width="50%"}
+### Enseñaremos
+
+-   <img src="https://raw.githubusercontent.com/tidyverse/tidyverse.org/refs/heads/main/static/images/favicon.ico" style="display: inline-block; margin: 0; margin-bottom: -2px; height: 35px;"/></img> R con enfoque en el tidyverse para análisis reproducibles
+
+-   `r fontawesome::fa("laptop-code")` Sintaxis de Quarto para la elaboración de documentos reprodubcibles
+:::
+:::
+
+## Preparativos
+
+-   Instalar R, [versión 4.4.1 o posterior](https://cran.rstudio.com)
+-   Instalar RStudio, [versión 2024.09.0+375 o posterior](https://posit.co/download/rstudio-desktop/)
+-   Instalar Quarto, [versión 1.5.57 o posterior](https://quarto.org/docs/get-started/)
+    -   Después de instalar Quarto, instalar `TinyTeX`
+-   Instalar Git, [versión 2.47.0 o posterior](https://git-scm.com)
+-   Instalar [GitHub Desktop](https://github.com/apps/desktop)
+-   Instalar [Zotero 7](https://www.zotero.org/download/)
+-   Descargar los materiales (clonar el repositorio) del curso <https://github.com/geobota/quarto-workshop.git>
+-   Instalar los paquetes de R necesarios
+```{r}
+#| echo: true
+#| eval: false
+
+install.packages(
+  c(
+    "countdown", "ethnobotanyR", "flextable", "fontawesome", 
+    "ggthemes", "gt", "here", "janitor", "palmerpenguins", 
+    "readxl", "showtext", "sysfonts", "tidyverse", "visdat" 
+  )
+)
+```
+
+## Estructura {.incremental}
+
+-   `r fontawesome::fa("person-chalkboard", fill = "#009E73")` [Explicación]{style="color: #009E73;"}
+-   `r fontawesome::fa("laptop-code", fill = "#0072B2")` [Actividad]{style="color: #0072B2;"}
+-   `r fontawesome::fa("mug-saucer", fill = "#000000")` [Pausa]{style="color: #000000;"}
+
+::: {.fragment}
+
+### Durante las sesiones
+
+-   `r fa("square", fill = "yellow")` = «Álex aprenda a explicar» o «necesito más tiempo»
+
+-   `r fa("square", fill = "pink")` = Complete la actividad.
+
+-   Mano levantada = tengo una pregunta o tengo un problema.
+:::
+
+## Programación 
+
+
+::: {.incremental}
+-   Introducción al curso
+-   Introducción a Quarto
+-   Introducción a R
+-   Análisis descriptivos
+-   Índices etnobotánicos
+:::
+
+#  {background-color="#009E73" transition="slide-in"}
+
+[¡Comencemos!]{.r-fit-text}
+
