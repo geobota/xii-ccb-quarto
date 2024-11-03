@@ -63,6 +63,426 @@
     "text": "Instalar los paquetes de R necesarios\n\nAbrir RStudio (la apariencia puede variar)\n\n\n\nCopiar el siguiente código. Pegar en la Console usando Ctrl-CCtrl-C, Presionar EnterEnter\n\n\ninstall.packages(\n  c(\n    \"countdown\", \"ethnobotanyR\", \"flextable\", \"fontawesome\", \n    \"ggthemes\", \"gt\", \"here\", \"janitor\", \"palmerpenguins\", \n    \"readxl\", \"showtext\", \"sysfonts\", \"tidyverse\", \"visdat\" \n  )\n)\n\n\nLa descarga e instalación de paquetes puede tardar según su conexión a internet y las especificaciones de su equipo."
   },
   {
+    "objectID": "slides/intro-quarto/index.html#proposito",
+    "href": "slides/intro-quarto/index.html#proposito",
+    "title": "Introducción a Quarto",
+    "section": "Proposito",
+    "text": "Proposito\n\n\n\nPasar de Word…\n\n\n\n\n\n\n\na Quarto"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#qué-es-quarto",
+    "href": "slides/intro-quarto/index.html#qué-es-quarto",
+    "title": "Introducción a Quarto",
+    "section": "Qué es Quarto",
+    "text": "Qué es Quarto\nQuarto es un sistema open-source de publicación técnica y científica. Quarto es una interfaz de línea de comandos (CLI) que convierte formatos de texto plano (.qmd, .rmd, .md) o formatos mixtos (.ipynb/Jupyter notebook) en documentos estaticos o interactivos.\n\nQuarto permite combinar en un mismo entorno texto y código para producir resultados elegantemente formateados como documentos, páginas web, entradas de blog, libros y más.\n\n\n\nRepresantación esquemática de Quarto. Allison Horst."
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#por-qué-quarto",
+    "href": "slides/intro-quarto/index.html#por-qué-quarto",
+    "title": "Introducción a Quarto",
+    "section": "Por qué Quarto",
+    "text": "Por qué Quarto\n\n\n\nOpen-source\nUn único framework\nSintaxis coherente\nMultiplataforma, multiengine, multilenguaje, multilingüe\nMejor integración con IDEs (JupyterLab, RStudio, VScode)\nCompatibilidad con formatos existentes (.Rmd, ipynb)\nIntegración más sencilla con filtros Lua\nMás de 40 formatos de salida\nExtensiones\n\n\n\n\n\nImagen de Krishnamurthy (2015)"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-artículos",
+    "href": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-artículos",
+    "title": "Introducción a Quarto",
+    "section": "Qué puedo hacer con Quarto: artículos",
+    "text": "Qué puedo hacer con Quarto: artículos\n\n\nhttps://dx.doi.org/10.2139/ssrn.4960885"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-dashboards",
+    "href": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-dashboards",
+    "title": "Introducción a Quarto",
+    "section": "Qué puedo hacer con Quarto: dashboards",
+    "text": "Qué puedo hacer con Quarto: dashboards\n\n\nhttps://geobota.github.io/dia-biologo-2024/"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-libros",
+    "href": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-libros",
+    "title": "Introducción a Quarto",
+    "section": "Qué puedo hacer con Quarto: libros",
+    "text": "Qué puedo hacer con Quarto: libros\n\n\nhttps://alexespinosaco.github.io/biologia-plantas-manual/"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-presentaciones",
+    "href": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-presentaciones",
+    "title": "Introducción a Quarto",
+    "section": "Qué puedo hacer con Quarto: presentaciones",
+    "text": "Qué puedo hacer con Quarto: presentaciones\n\n\nhttps://geobota.github.io/xii-ccb-etnobotanica/"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-sitios-web",
+    "href": "slides/intro-quarto/index.html#qué-puedo-hacer-con-quarto-sitios-web",
+    "title": "Introducción a Quarto",
+    "section": "Qué puedo hacer con Quarto: sitios web",
+    "text": "Qué puedo hacer con Quarto: sitios web\n\n\nhttps://geobota.github.io/"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#cómo-funciona-quarto",
+    "href": "slides/intro-quarto/index.html#cómo-funciona-quarto",
+    "title": "Introducción a Quarto",
+    "section": "Cómo funciona Quarto",
+    "text": "Cómo funciona Quarto\n\nRepresentación esquemática de cómo funciona Quarto. Allison Horst."
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#no-es-sólo-r-y-rstudio",
+    "href": "slides/intro-quarto/index.html#no-es-sólo-r-y-rstudio",
+    "title": "Introducción a Quarto",
+    "section": "No es sólo R y RStudio",
+    "text": "No es sólo R y RStudio"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#what-you-see-is-what-you-get-wysiwyg",
+    "href": "slides/intro-quarto/index.html#what-you-see-is-what-you-get-wysiwyg",
+    "title": "Introducción a Quarto",
+    "section": "What You See Is What You Get (WYSIWYG)",
+    "text": "What You See Is What You Get (WYSIWYG)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat you see is what you get: lo que ves es lo que hay"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#what-you-see-is-what-you-mean-wysiwym",
+    "href": "slides/intro-quarto/index.html#what-you-see-is-what-you-mean-wysiwym",
+    "title": "Introducción a Quarto",
+    "section": "What You See Is What You Mean (WYSIWYM)",
+    "text": "What You See Is What You Mean (WYSIWYM)\n\n\n\n\n\nViews Iceberg Traced by User:Jc86035, CC BY-SA 3.0, via Wikimedia Commons\n\n\n\n---\ntitle: \"ggplot2 demo\"\nauthor: \"Norah Jones\"\ndate: \"5/22/2021\"\nformat: \n  html:\n    fig-width: 8\n    fig-height: 4\n    code-fold: true\n---\n\n## Air Quality\n\n@fig-airquality further explores the impact of temperature on ozone level.\n\n```{r}\n#| label: fig-airquality\n#| fig-cap: \"Temperature and ozone level.\"\n#| warning: false\n\nlibrary(ggplot2)\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n```\n\n\n\n\n\nResultado obtenido del código de la izquierda. Quarto\n\n\n\n\nWhat you see is what you mean: lo que ves es lo que quieres decir"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#integrated-development-environment-ide",
+    "href": "slides/intro-quarto/index.html#integrated-development-environment-ide",
+    "title": "Introducción a Quarto",
+    "section": "Integrated development environment (IDE)",
+    "text": "Integrated development environment (IDE)\n\nAplicación que proporciona servicios integrales para facilitar el desarrollo de software.\n\n\n\n\n\n\nApariencia por defecto de RStudio.\n\n\n\n\n\n\nEditor Visual de RStudio. Quarto.\n\n\n\n\nIntegrated development environment: entorno de desarrollo integrado"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#renderizar-y-formatos",
+    "href": "slides/intro-quarto/index.html#renderizar-y-formatos",
+    "title": "Introducción a Quarto",
+    "section": "Renderizar y formatos",
+    "text": "Renderizar y formatos\n\n\n\nTres formas de renderizar\n\nUtilizando el boton  en RStudio\n\n\n\nUtilizando la consola de R\n\nlibrary(quarto)\nquarto::quarto_render(input = \"documento.qmd\") # html por defecto\nquarto::quarto_render(input = \"documento.qmd\", output_format = \"pdf\")\n\nUtilizando la terminal\n\nquarto render document.qmd # html por defecto\nquarto render document.qmd --to pdf\n\n\nMás de 40 formatos de salida\n\nhtml\npdf\ntypst\ndocx\nodt\nrevealjs\npptx\ndashboard\nmuchos más!"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#anatomía-de-un-archivo-.qmd",
+    "href": "slides/intro-quarto/index.html#anatomía-de-un-archivo-.qmd",
+    "title": "Introducción a Quarto",
+    "section": "Anatomía de un archivo .qmd",
+    "text": "Anatomía de un archivo .qmd\nLos archivos de Quarto (.qmd) son archivos de texto plano conformado por:\nMetadata (YAML)\n\n\nformat: html\nengine: knitr\n\nformat: html\nengine: jupyter\n\nCódigo\n\n\n```{r}\nlibrary(dplyr)\nmtcars |&gt; \n  group_by(cyl) |&gt; \n  summarize(mean = mean(mpg))\n```\n\n```{python}\nfrom siuba import *\n(mtcars\n  &gt;&gt; group_by(_.cyl)\n  &gt;&gt; summarize(avg_mpg = _.mpg.mean()))\n```\n\nTexto\n# Título 1\nEsta es una frase con algo de **texto en negrita**, *texto en cursiva* y una \n![Descripción de la imagen](imagen.png){fig-alt=«Alt text para la imagen»}."
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#metadata-yaml-1",
+    "href": "slides/intro-quarto/index.html#metadata-yaml-1",
+    "title": "Introducción a Quarto",
+    "section": "Metadata (YAML)",
+    "text": "Metadata (YAML)\n«Yet Another Markup Language» o “YAML Ain’t Markup Language” se utiliza para proporcionar metadatos a nivel de documento o proyecto.\n\n\n\nSe coloca al principio del documento entre ---\nSiempre en pares key: y value\nPueden anidarse\nQuisquilloso con la sangría y espaciado\n\n\n---\ntitle: \"El origen de las especies\"\nauthor: \"Charles Darwin\"\nformat: \n  html:\n    toc: true\n----\n\n\n\n\nQuarto YAML Intelligence:autocompletar\n\n\n\n\n\n\n\nQuarto linting:detección de errores"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#markdown",
+    "href": "slides/intro-quarto/index.html#markdown",
+    "title": "Introducción a Quarto",
+    "section": "Markdown ",
+    "text": "Markdown \n\n\nMarkdown es un formato de texto plano creado por John Gruber y Aaron Swartz, está diseñado para ser fácil de escribir y fácil de leer. Quarto se basa en Pandoc y utiliza su variante de Markdown, la cual es una versión ampliada y ligeramente revisada de la sintaxis Markdown de John Gruber.\n\n\nUn documento con formato Markdown debería poder publicarse tal cual, como texto sin formato, sin que parezca que ha sido marcado con etiquetas o instrucciones de formato. John Gruber\n\n\n\n\n\n\nAaron Swartz (1986-2013) una de las personas más importantes en la historia de Internet. Fred Benenson / www.fredbenenson.com, CC BY 2.0."
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#markdown-formato-de-texto",
+    "href": "slides/intro-quarto/index.html#markdown-formato-de-texto",
+    "title": "Introducción a Quarto",
+    "section": "Markdown: formato de texto",
+    "text": "Markdown: formato de texto\nEn Quarto se puede agregar texto en diferentes formatos.\nSintaxis básica\n\n\n\n\n\n\n\nMarkdown\nSalida\n\n\n\n\n*cursiva*\ncursiva\n\n\n**negrilla**\nnegrilla\n\n\n***cursiva y negrilla***\ncursiva y negrilla\n\n\nsuperíndice^2^\nsuperíndice2\n\n\nsubíndice~2~\nsubíndice2\n\n\n~~tachado~~\ntachado\n\n\n`código puro`\ncódigo puro"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#markdown-párrafos",
+    "href": "slides/intro-quarto/index.html#markdown-párrafos",
+    "title": "Introducción a Quarto",
+    "section": "Markdown: párrafos",
+    "text": "Markdown: párrafos\nEn Markdown los párrafos se construyen dejando una linea en blanco. De lo contrario, el salto de línea se trata como un espacio.\n\n\nLorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\n\nSed do eiusmod tempor.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\nSed do eiusmod tempor."
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#markdown-encabezados",
+    "href": "slides/intro-quarto/index.html#markdown-encabezados",
+    "title": "Introducción a Quarto",
+    "section": "Markdown: encabezados",
+    "text": "Markdown: encabezados\nEn Quarto se pueden agregar hasta seis niveles de encabezados o títulos.\n\n\n\n\n\n\n\nMarkdown\nSalida\n\n\n\n\n# Encabezado 1\nEncabezado 1\n\n\n## Encabezado 2\nEncabezado 2\n\n\n### Encabezado 3\nEncabezado 3\n\n\n#### Encabezado 4\nEncabezado 4\n\n\n##### Encabezado 5\nEncabezado 5\n\n\n###### Encabezado 6\nEncabezado 6"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#markdown-listas",
+    "href": "slides/intro-quarto/index.html#markdown-listas",
+    "title": "Introducción a Quarto",
+    "section": "Markdown: listas",
+    "text": "Markdown: listas\nLista desordenada\nPara los elementos de una lista desordenada se puede utilizar: *, -, o +.\n\n\nMarkdown\n*   Elemento 1\n    +   Elemento 1.1\n        -   Elemento 1.1.1\n    +   Elemento 1.2\n*   Elemento 2\n\nSalida\n\nElemento 1\n\nElemento 1.1\n\nElemento 1.1.1\n\nElemento 1.2\n\nElemento 2\n\n\nLista ordenada\n\n\nMarkdown\n1.  Elemento 1\n    i)  Elemento 1.1\n        A.  Elemento 1.1.1\n        A.  Elemento 1.1.2\n    i)  Elemento 1.2\n1.  Elemento 2\n\nSalida\n\nElemento 1\n\nElemento 1.1\n\nElemento 1.1.1\nElemento 1.1.2\n\nElemento 1.2\n\nElemento 2"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#markdown-enlaces-e-imágene",
+    "href": "slides/intro-quarto/index.html#markdown-enlaces-e-imágene",
+    "title": "Introducción a Quarto",
+    "section": "Markdown: enlaces e imágene",
+    "text": "Markdown: enlaces e imágene\nLa sintaxis para agregar enlaces e imágenes e relativamente similar.\n\n\n\nMarkdown\nOutput\n\n\n\n\n&lt;https://quarto.org&gt;\nhttps://quarto.org\n\n\n[Quarto](https://quarto.org)\nQuarto\n\n\n![Descripción](images/quarto_logo.png)\n\n\n\nDescripción"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#sec-markdown-tablas",
+    "href": "slides/intro-quarto/index.html#sec-markdown-tablas",
+    "title": "Introducción a Quarto",
+    "section": "Markdown: tablas",
+    "text": "Markdown: tablas\nQuarto incluye características destinadas a facilitar la creación y personalización de tablas: especificar la alineación y el ancho de las columnas; proporcionar títulos y referencias cruzadas; generar tablas a partir de código. En Markdown las tablas pueden ser pipe tables o grid tables. Las tablas se pueden construir usando el Editor Visual o generadores https://www.tablesgenerator.com\n\n\n\nMarkdown\n| Por defecto | Izquierda | Derecha | Centro |\n|-------------|:----------|--------:|:------:|\n| 12          | 12        |      12 |   12   |\n| 123         | 123       |     123 |  123   |\n| 1           | 1         |       1 |   1    |\n\n: Demostración de pipe table.\n\nSalida\n\nDemostración de pipe table.\n\n\nPor defecto\nIzquierda\nDerecha\nCentro\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\n\n\n\n+-----------+-----------+--------------------------+\n| Fruta     | Precio    | Ventajas                 |\n+==========:+:=========:+:=========================+\n| Banano    | $1.34     | - envoltorio incorporado |\n|           |           | - color brillante        |\n+-----------+-----------+--------------------------+\n\n: Demostración de grid table.\n\n\nDemostración de grid table.\n\n\n\n\n\n\n\nFruta\nPrecio\nVentajas\n\n\n\n\nBanano\n$1.34\n\nenvoltorio incorporado\ncolor brillante"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#referencias-cruzadas",
+    "href": "slides/intro-quarto/index.html#referencias-cruzadas",
+    "title": "Introducción a Quarto",
+    "section": "Referencias cruzadas",
+    "text": "Referencias cruzadas\nLas referencias cruzadas facilitan a los lectores la navegación por el documento proporcionando referencias numeradas e hipervínculos a diversas entidades, como figuras y tablas. Toda entidad con la que se puedan establecer referencias cruzadas requiere una etiqueta (fig- y tbl-), un identificador único precedido de un tipo de referencia cruzada (fig-elemento y tbl-elemento).\n\n![Istopipo de Quarto](images/quarto_logo.png){#fig-quarto}\n\nLa @fig-quarto muestra el isotipo de Quarto.\n\n\n\n\n\n\nFigura 1: Isotipo de Quarto\n\n\n\nLa Figura 1 muestra el isotipo de Quarto.\n\n\nQuarto tiene algunos prefijos reservados: fig, tbl, lst, tip, nte, wrn, imp, cau, thm, lem, cor, prp, cnj, def, exm, exr, sol, rem, eq, sec.\nEs recomendable evitar el uso de guiones bajos _."
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#citación",
+    "href": "slides/intro-quarto/index.html#citación",
+    "title": "Introducción a Quarto",
+    "section": "Citación",
+    "text": "Citación\nQuarto utiliza Pandoc para generar automáticamente citas y una bibliografía en varios estilos. Es necesario tener:\n\nUn documento Quarto formateado con citas.\nUna fuente de datos bibliográficos, por ejemplo un archivo BibLaTeX (.bib) o BibTeX (.bibtex).\nOpcionalmente, un archivo CSL que especifique el formato a utilizar al generar las citas y la bibliografía.\n\n\nEl conjunto de datos flor Iris fue tomado por @anderson1936 y popularizado \nposteriormente [@fisher1936]. El conjunto de datos contiene 150 muestras de \ntres especies [@anderson1936; @fisher1936].\nEl conjunto de datos flor Iris fue tomado por Anderson (1936) y popularizado posteriormente (Fisher 1936). El conjunto de datos contiene 150 muestras de tres especies (Anderson 1936; Fisher 1936).\n\n\n\nReferencias\n\n\nAnderson, Edgar. 1936. «The species problem in Iris». Annals of the Missouri Botanical Garden 23 (3): 457. https://doi.org/10.2307/2394164.\n\n\nFisher, R. A. 1936. «The Use of Multiple Measurements in Taxonomic Problems». Annals of Eugenics 7 (2): 179-88. https://doi.org/10.1111/j.1469-1809.1936.tb02137.x."
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#código-1",
+    "href": "slides/intro-quarto/index.html#código-1",
+    "title": "Introducción a Quarto",
+    "section": "Código",
+    "text": "Código\nEn Quarto el código puede insertarse en linea o como bloques de código (conocidos como chunks). Los chunks siempre se encuentran entre ```, mientras el código en linea se encuentra entre `. Para que el código sea ejecutable se ha de poner el nombre del lenguaje entre {}, ej. {r}. Si sólo se pone el nombre del lenguaje, el código no se ejecutará y se resaltará la sintaxis del lenguaje. Los chunks pueden tener opciones que se indican con un #| (hash pipe) y siguen la sintaxis del YAML.\n\n\n\n```{r}\n#| label: fig-ejemplo-chunk\n#| fig-cap: \"Descripción de la figura. Note el prefijo generado automáticamente\"\n#| fig-dpi: 300\n#| output-location: column-fragment\n#| code-line-numbers: \"|1|2-8|2|3-4\"\n\nlibrary(ggplot2)\n\niris |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(x = Petal.Length, y = Petal.Width)\n  ) + \n  ggplot2::geom_point(\n    ggplot2::aes(color = Species, shape = Species)\n  ) + \n  ggplot2::geom_smooth(\n    formula = y ~ x, method = \"loess\"\n  ) + \n  ggplot2::theme_classic()\n```\n\n\n\n\n\n\n\n\nFigura 2: Descripción de la figura. Note el prefijo generado automáticamente"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#de-opciones-de-chunk-al-yaml",
+    "href": "slides/intro-quarto/index.html#de-opciones-de-chunk-al-yaml",
+    "title": "Introducción a Quarto",
+    "section": "De opciones de chunk al YAML",
+    "text": "De opciones de chunk al YAML\nHay una gran variedad de opciones disponibles para personalizar la salida del código ejecutado. Todas estas opciones se pueden especificar globalmente (YAML) o por bloque de código.\n\n\n---\ntitle: \"El origen de las especies\"\nformat: html\n---\n\n```{r}\n#| echo: true\n\npi + 1\n```\n\n---\ntitle: \"El origen de las especies\"\nformat: html\nexecute:\n  echo: true\n---\n\n```{r}\npi + 1\n```"
+  },
+  {
+    "objectID": "slides/intro-quarto/index.html#opciones-de-ejecución",
+    "href": "slides/intro-quarto/index.html#opciones-de-ejecución",
+    "title": "Introducción a Quarto",
+    "section": "Opciones de ejecución",
+    "text": "Opciones de ejecución\nLas opciones disponibles para personalizar la salida incluyen:\n\n\n\n\n\n\n\nOpción\nDescripción\n\n\n\n\neval\nEvalúa el fragmento de código (si es false, sólo muestra el código en la salida).\n\n\necho\nIncluye el código fuente en la salida.\n\n\noutput\nIncluye los resultados de ejecutar el código en la salida (true, false, o asis para indicar que la salida es markdown crudo)\n\n\nwarning\nIncluye advertencias en la salida.\n\n\nerror\nIncluye errores en la salida (esto implica que los errores de ejecución de código no detendrán el procesamiento del documento).\n\n\ninclude\nCaptura general para evitar que se incluya cualquier salida (código o resultados). Por ejemplo, include: false suprime toda la salida del bloque de código."
+  },
+  {
+    "objectID": "slides/intro/index.html#quienes-somos",
+    "href": "slides/intro/index.html#quienes-somos",
+    "title": "Investigación Reproducible con Quarto",
+    "section": "Quienes somos",
+    "text": "Quienes somos\nÁlex\n\n\nBiólogo (UdeA)\nCandidato a Doctor en Biología (UdeA)\nAerobiología y botánica\nCiencia abierta y reproducible\nCiencia de datos\n @alexespinosaco@mstdn.social"
+  },
+  {
+    "objectID": "slides/intro/index.html#antes-de-comenzar",
+    "href": "slides/intro/index.html#antes-de-comenzar",
+    "title": "Investigación Reproducible con Quarto",
+    "section": "Antes de comenzar",
+    "text": "Antes de comenzar\n\n\n\nAsumimos\n\n Poco o nulo conocimiento en código (R)\n Poco o nulo conocimiento en Markddown\n Poco o nulo conocimiento en Quarto\n Poco o nulo conocimiento en reproducibilidad\n\n\n\nEnseñaremos\n\n\n Elaboración de documentos reprodubcibles usando Quarto"
+  },
+  {
+    "objectID": "slides/intro/index.html#preparativos",
+    "href": "slides/intro/index.html#preparativos",
+    "title": "Investigación Reproducible con Quarto",
+    "section": "Preparativos",
+    "text": "Preparativos\n\nInstalar R, versión 4.4.1 o posterior\nInstalar RStudio, versión 2024.09.0+375 o posterior\nInstalar Quarto, versión 1.5.57 o posterior\n\nDespués de instalar Quarto, instalar TinyTeX\n\nInstalar Git, versión 2.47.0 o posterior\nInstalar GitHub Desktop\nInstalar Zotero 7\nDescargar los materiales (clonar el repositorio) del curso https://github.com/geobota/quarto-workshop.git\nInstalar los paquetes de R necesarios\n\n\ninstall.packages(\n  c(\n    \"countdown\", \"ethnobotanyR\", \"flextable\", \"fontawesome\", \n    \"ggthemes\", \"gt\", \"here\", \"janitor\", \"palmerpenguins\", \n    \"readxl\", \"showtext\", \"sysfonts\", \"tidyverse\", \"visdat\" \n  )\n)"
+  },
+  {
+    "objectID": "slides/intro/index.html#estructura",
+    "href": "slides/intro/index.html#estructura",
+    "title": "Investigación Reproducible con Quarto",
+    "section": "Estructura",
+    "text": "Estructura\n\n Explicación\n Actividad\n Pausa\n\n\n\nDurante las sesiones\n\n = «Álex aprenda a explicar» o «necesito más tiempo»\n = Complete la actividad.\nMano levantada = tengo una pregunta o tengo un problema."
+  },
+  {
+    "objectID": "slides/intro/index.html#programación",
+    "href": "slides/intro/index.html#programación",
+    "title": "Investigación Reproducible con Quarto",
+    "section": "Programación",
+    "text": "Programación\n\n\nIntroducción al curso\nIntroducción a la Ciencia Abierta\nIntroducción a Quarto\nWorkflow\nGit y GitHub\nIntroducción a R"
+  },
+  {
+    "objectID": "slides/workflow/index.html#proposito",
+    "href": "slides/workflow/index.html#proposito",
+    "title": "Reproducibilidad",
+    "section": "Proposito",
+    "text": "Proposito\n\nEnseñar el flujo de trabajo orientados a proyectos"
+  },
+  {
+    "objectID": "slides/workflow/index.html#niveles-de-reproducibilidad-en-r",
+    "href": "slides/workflow/index.html#niveles-de-reproducibilidad-en-r",
+    "title": "Reproducibilidad",
+    "section": "Niveles de reproducibilidad en R",
+    "text": "Niveles de reproducibilidad en R\n\nNiveles de reproducibilidad. Higgins (2024)"
+  },
+  {
+    "objectID": "slides/workflow/index.html#advertencia",
+    "href": "slides/workflow/index.html#advertencia",
+    "title": "Reproducibilidad",
+    "section": "Advertencia",
+    "text": "Advertencia\n\nSi la primera línea de tu script R es\nsetwd(\"C:\\Users\\jenny\\ruta\\que\\solo\\yo\\tengo\")\nIré a tu oficina y LE PRENDERÉ FUEGO A TU ORDENADOR 🔥\nJenny Bryan\n\n\n\n\n\n\n @jennybryan@fosstodon.org\n\n\n\n\nCientífica de datos y profesora asociada de estadística en la Universidad de Columbia Británica. Estadista e ingeniera de software en Posit.\nAutora de Happy Git and GitHub for the useR, What they gorgot to teach you about R, STAT 545: Data wrangling, exploration, and analysis with R.\nAutora y responsable de reprex, readxl, googlesheets4, usethis, entre otros.\n\n\n\nAlgo similar ocurre con rm(list = ls())."
+  },
+  {
+    "objectID": "slides/workflow/index.html#dos-problemas",
+    "href": "slides/workflow/index.html#dos-problemas",
+    "title": "Reproducibilidad",
+    "section": "Dos problemas",
+    "text": "Dos problemas\n\n\n\nsetwd()\nsetwd() establece el directorio de trabajo.\nsetwd(\"/Users/alex/github/r/etnobotanica-workshop\")\nLa probabilidad de que setwd() tenga el efecto deseado (hacer que las rutas de los archivos funcionen) para alguien que no sea su autor es del 0%. También es poco probable que funcione para el autor dentro de uno o dos años u ordenadores.\nLas rutas fijas y absolutas, especialmente cuando están esparcidas por todo el código, hacen que un proyecto sea frágil. Este tipo de código no viaja bien a través del tiempo o del espacio.\n\n\nrm(list = ls())\nrm(list = ls()) elimina «todos» los objetos del entorno de trabajo actual.\nPensada para reiniciar las cosas, ya sea para reiniciar el análisis actual o para cambiar de un proyecto a otro. Pero hay mejores maneras de hacer ambas cosas: reiniciar R y Usar un IDE con soporte adecuado para proyectos.\nDada la intención, no va lo suficientemente lejos. Todo lo que hace es borrar objetos creados por el usuario del espacio de trabajo. Muchos otros cambios persisten de forma invisible y pueden tener profundos efectos posteriormente."
+  },
+  {
+    "objectID": "slides/workflow/index.html#entorno-de-desarrollo-integrado-ide",
+    "href": "slides/workflow/index.html#entorno-de-desarrollo-integrado-ide",
+    "title": "Reproducibilidad",
+    "section": "Entorno de desarrollo integrado (IDE)",
+    "text": "Entorno de desarrollo integrado (IDE)\n\n\n\nAplicación que proporciona servicios integrales para facilitar el desarrollo de software.\nVentajas:\n\nResaltado de sintaxis\nAutocompletado de texto\nManejo de librerías\nConstruir, compilar o ejecutar\ny mucho más…\n\n\n\nIDEs populares:\n\nEmacs\nRStudio\nvim\nVS Code\n\n\n\n\n\n\nApariencia por defecto de RStudio."
+  },
+  {
+    "objectID": "slides/workflow/index.html#siempre-empezar-r-desde-cero",
+    "href": "slides/workflow/index.html#siempre-empezar-r-desde-cero",
+    "title": "Reproducibilidad",
+    "section": "Siempre empezar R desde cero",
+    "text": "Siempre empezar R desde cero\n\n\nSiempre es recomendable trabajar en un espacio de trabajo desde cero, sin guardar o cargar cada vez. En RStudio se puede puede hacer de esta forma.\nSiempre es recomendable reiniciar R de vez en cuando. En RStudio se puede hacer en Session &gt; Restar R. Atajo de teclado: Ctrl-Shift-F10Ctrl-Shift-F10\n\n\n\n\nPara desactivar .Rdata ir a Tools &gt; Global Options.\n\n\n\n\nMás información"
+  },
+  {
+    "objectID": "slides/workflow/index.html#flujo-de-trabajo-orienta-a-proyectos4",
+    "href": "slides/workflow/index.html#flujo-de-trabajo-orienta-a-proyectos4",
+    "title": "Reproducibilidad",
+    "section": "Flujo de trabajo orienta a proyectos1",
+    "text": "Flujo de trabajo orienta a proyectos1\n\nEnfoque de organización que estructura todo el trabajo, código, datos y resultados relacionados con un proyecto en una única carpeta o estructura de carpetas organizada. Esta metodología facilita el manejo y la reproducibilidad de proyectos, especialmente en ciencia de datos, programación y análisis.\n\n\n\n\nCaracterísticas\n\n\nEstructura organizada de carpetas\nSeparación de código y datos\nControl de versiones\nScripts y documentación reproducibles\nPortabilidad\n\n\n\n\nVentajas\n\n\nReproducibilidad\nColaboración\nEscalabilidad\n\n\n\nProject-oriented workflow"
+  },
+  {
+    "objectID": "slides/workflow/index.html#proyectos",
+    "href": "slides/workflow/index.html#proyectos",
+    "title": "Reproducibilidad",
+    "section": "Proyectos",
+    "text": "Proyectos\n\nGestionar tus proyectos de forma reproducible no sólo hace que tu ciencia reproducible, sino que te facilita la vida. @vsbuffalo\n\n\n\nUn proyecto es una carpeta que contiene todos los archivos relevantes para un trabajo en particular.\nLos proyectos permiten que las investigaciones sean reproducibles, portátiles y autocontenibles.\nTrabajar con proyectos implica tener:\n\nDisciplina en el sistema de archivos: todos los archivos relacionados a un proyecto (datos, imágenes, resultados, scripts, etc) están en la carpeta del proyecto.\nIntencionalidad en el directorio de trabajo: siempre se trabaja en el directorio del proyecto.\nDisciplina en las rutas de archivos: todas las rutas son relativas (nunca absolutas) y relativas a la carpeta del proyecto.\n\n\n\n\nMás información: Bryan et al. (2024); Bryan (2017)"
+  },
+  {
+    "objectID": "slides/workflow/index.html#proyectos-de-rstudio",
+    "href": "slides/workflow/index.html#proyectos-de-rstudio",
+    "title": "Reproducibilidad",
+    "section": "Proyectos de RStudio",
+    "text": "Proyectos de RStudio\n\n\nLos proyectos de RStudio facilitan la división del trabajo en varios contextos, con su propio directorio y espacio de trabajo, historial y documentos.\n\n\n\nHay varias formas de crear un proyecto. La más sencilla es File &gt; New Project. Imagen: Wickham et al. (2023)\n\n\n\nLa barra de herramientas de proyectos se encuentra en la esquina superior derecha de RStudio. Muestra el nombre del proyecto actual, y tiene comandos para:\n\n\n\nOpciones de la barra de herramientas de proyectos de RStudio.\n\n\n\n\nMás información"
+  },
+  {
+    "objectID": "slides/workflow/index.html#rutas",
+    "href": "slides/workflow/index.html#rutas",
+    "title": "Reproducibilidad",
+    "section": "Rutas",
+    "text": "Rutas\n\n\n\n\nRutas absolutas\nIndican la ubicación de un archivo o directorio desde el directorio raíz del sistema de archivos. Dificulta la reproducibilidad ya que esa ruta sólo «funciona» en el equipo donde se haya creado.\n/usuarios/yo/documentos/r/proyecto/scripts/super-analisis.R\n\n\n\n\n\nRutas relativas\nIndican la ubicación de un archivo o directorio a partir de la posición actual del sistema operativo en el sistema de archivos.\nscripts/super-analisis.R\n\n\n\n\n\nHere: encuentra tu camino. Ilustración de Allison Horst."
+  },
+  {
+    "objectID": "slides/workflow/index.html#you-are-herehere",
+    "href": "slides/workflow/index.html#you-are-herehere",
+    "title": "Reproducibilidad",
+    "section": "You are here::here()",
+    "text": "You are here::here()\nEl objetivo del paquete here es facilitar la referenciación de archivos en flujos de trabajo orientados a proyectos1. here utiliza el directorio de nivel superior de un proyecto para construir fácilmente rutas a archivos.\n\n\n\n\nRuta absoluta:\n\nreadr::read_csv(\"/Users/alex/documento/r/etnobotanica-workshop/data/raw_data.csv\")\n\n\n\n\n\n\nRuta relativa\n\nreadr::read_csv(\"data/raw_data.csv\")\n\n\n\n\n\n\nRuta relativa usando here\n\nreadr::read_csv(here::here(\"data\", \"raw_data.csv\")) # opción 1\nreadr::read_csv(here::here(\"data/raw_data.csv\")) # opción 2\n\n\nPuede ser: Proyecto de RStudio, repositorio de git, paquete R, carpeta con un archivo llamado .here"
+  },
+  {
+    "objectID": "slides/workflow/index.html#el-nombre-de-las-cosas",
+    "href": "slides/workflow/index.html#el-nombre-de-las-cosas",
+    "title": "Reproducibilidad",
+    "section": "El nombre de las cosas",
+    "text": "El nombre de las cosas\n\n\n\n\nNo\nmyabstract.docx\nJoe’s Filenames Use Spaces and Punctuation.xlsx\nfigure 1.png\nfig 2.png\nJW7d^(2sl@deletethisandyourcareerisoverWx2*.txt\n\n\n\n\n\nSí\n2014-06-08_abstract-for-sla.docx\njoes-filenames-are-getting-better.xlsx\nfig01_scatterplot-talk-length-vs-interest.png\nfig02_histogram-talk-attendance.png\n1986-01-28_raw-data-from-challenger-o-rings.txt\n\n\n\n\n\nhttps://xkcd.com/1459/\n\n\n\n\nMás información: Bryan et al. (2024); Bryan (2015)"
+  },
+  {
+    "objectID": "slides/workflow/index.html#principios-para-los-nombres-de-los-archivos",
+    "href": "slides/workflow/index.html#principios-para-los-nombres-de-los-archivos",
+    "title": "Reproducibilidad",
+    "section": "Principios para los nombres (de los archivos)",
+    "text": "Principios para los nombres (de los archivos)\n\n\nLegible por máquinas\n\nExpresiónes regulares (regex) y globbing1 amigable\n\nEvitar espacios, puntuación, caracteres acentuados y distinción entre mayúsculas y minúsculas\n\nFácil de computar\n\nUso deliberado de delimitadores: “_” para delimitar unidades de metadatos y “-” para delimitar palabras\n\n\nLegible por humanos\n\nEl nombre contiene información sobre el contenido\nRelacionado al concepto de URL semántica2\n\nFunciona bien con el orden predeterminado (alfanúmerico)\n\nPoner algo numérico primero\nUtilice ceros a la izquierda de otros números\nUtilice la norma ISO 8601 para fechas: YYYY-MM-DD\n\n\n\nDefinir uno o más patrones globales y generar archivos a partir de coincidencias inclusivas o exclusivas. Ejemplo: documento1.txt, documento2.txt. FuenteURLs que son entendibles para el usuario. Ejemplo: https://es.wikipedia.org/wiki/URL_semántica"
+  },
+  {
+    "objectID": "slides/workflow/index.html#ejemplos",
+    "href": "slides/workflow/index.html#ejemplos",
+    "title": "Reproducibilidad",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\nOrden lógico\n01_marshal-data.R\n02_pre-dea-filtering.R\n03_dea-with-Limma-voom.R\n04_explore-dea-results.R\n90_Limma-model-term-name-fiasco.R\nhelper01_load-counts.R\nhelper02_load-exp-des.R\nhelper03_load-focus-statinf.R\nhelper04_extract-and-tidy.R\n\n\nOrden crónologico\n2015-11-09_package-installation.R\n2016-05-21_package-installation.R\n2017-09-05_package-installation.R\n2018-06-29_package-installation.R\n2019-02-19_repair-default-library.R\n2020-06-06_record-existing-pkgs.R\n2021-06-15_git-config-analysis.R\n2021-08-29-git-default-branch.R\n2022-08-11_record-existing-pkgs.R\n\n\n\n\n\nEjemplo más complejo\n2013-06-26_BRAFWTNEGASSAY_Plasmid-Cellline-100-1MutantFraction_HO1.csv\n2013-06-26_BRAFWTNEGASSAY_Plasmid-Cellline-100-1MutantFraction_HO2.csv\n2013-06-26_BRAFWTNEGASSAY_Plasmid-Cellline-100-1MutantFraction_plateflle.csv\n2014-02-26_BRAFWTNEGASSAY_FFPEDNA-CRC-1-41_A01.csv\n2014-02-26_BRAFWTNEGASSAY_FFPEDNA-CRC-1-41_A02.csv"
+  },
+  {
+    "objectID": "slides/workflow/index.html#formatos-de-los-nombres",
+    "href": "slides/workflow/index.html#formatos-de-los-nombres",
+    "title": "Reproducibilidad",
+    "section": "Formatos de los nombres",
+    "text": "Formatos de los nombres\n\n\n\n\n\nAllison Horst.\n\n\n\n\nflatcase\nSCREAMINGCASE\ncamelCase\nPascalCase\nsnake_case\nSCREAMING_SNAKE_CASE\ncamel_Snake_Case\nPascal_Snake_Case\nkebab-case\nSCREAMING-KEBAB-CASE\ncamel-Kebad-Case\nPascal-Kebad-Case\n\n\n\nR no acepta todos los formatos listados. Formatos sugeridos: camelCase, flatcase, PascalCase, period.case, snake_case."
+  },
+  {
+    "objectID": "slides/workflow/index.html#lo-lamento-pero-hizo-que-el-emperador-perdiera-el-estilo",
+    "href": "slides/workflow/index.html#lo-lamento-pero-hizo-que-el-emperador-perdiera-el-estilo",
+    "title": "Reproducibilidad",
+    "section": "«Lo lamento, pero hizo que el emperador perdiera el estilo»",
+    "text": "«Lo lamento, pero hizo que el emperador perdiera el estilo»\n\n\nUn buen estilo de codificación es como una correcta puntuación: se puede prescindir de él, perofacilitalalectura. Todas las guías de estilo se basan fundamentalmente en opiniones. Algunas decisiones realmente facilitan el uso del código, pero muchas decisiones son arbitrarias. Lo más importante de una guía de estilo es que proporciona coherencia, lo que facilita la escritura del código porque hay que tomar menos decisiones.\n\n\n\nGuías de estilo\n\n\nGuía de estilo de Bioconductor\nGuía de estilo de Colin Gillespie\nGuía de estilo de Google\nGuía de estilo del Tidyverse\n\n\n\nDos paquetes de R soportan la Guía de estilo del Tidyverse: styler y lintr.\n\n\n\nStyler añade un complemento de RStudio que facilita aplicar el estilo."
+  },
+  {
+    "objectID": "slides/workflow/index.html#estructura-de-un-proyecto",
+    "href": "slides/workflow/index.html#estructura-de-un-proyecto",
+    "title": "Reproducibilidad",
+    "section": "Estructura de un proyecto",
+    "text": "Estructura de un proyecto\n\n\nNo hay una estructura estándar para organizar un proyecto. Lo principal es que sea «organizado» y entendible por uno mismo y por otros.\nLa estructura de las carpetas y los nombres de los archivos deben ser:\n\nAutodocumentados:\n\nLos datos en la carpeta datos\nLos scripts en la carpeta scripts\n\nFáciles de codificar. Ejemplo:\n\nmedellin_temperatura-minima.csv\nmedellin_temperatura-maxina.csv\n\nTodos los archivos necesarios para\n\nHay varios paquetes que facilitan algunas de estas tareas: usethis, rrtools.\n\n\nEjemplo de estructura de un proyecto\nproyecto/\n├── proyecto.Rproject  # proyecto de RStudio\n├── README.md          # útil para describir el proyecto\n├── code/\n│   ├── functions\n│   └── scripts\n├── data/\n│   ├── raw_data/      # los datos sin procesar\n│   │   ├── muestreo.xlsx\n│   ├── derived_data/  # los datos procesados\n│       └── datos.csv\n├── images/\n├── output/\n│   ├── report.pdf     # el archivo exportado\n├── report/\n│   ├── apa.csl        # el estilo de citas y referencias\n│   ├── references.bib # la información de las referencias\n│   └── report.qmd\n├── tables/\n└── templates/"
+  },
+  {
+    "objectID": "slides/workflow/index.html#quarto",
+    "href": "slides/workflow/index.html#quarto",
+    "title": "Reproducibilidad",
+    "section": "Quarto",
+    "text": "Quarto\nNo se trata solo de obtener resultados reproducibles; los informes o manuscritos también deben serlo. Quarto es un sistema de publicación científica y técnica de código abierto. Puede entrelazar texto y código para producir resultados con un formato elegante en forma de documentos, páginas web, blogs, libros y mucho más. Los archivos de Quarto (.qmd) son archivos de texto plano conformado por:\n\n\nMetadata (YAML)\n\n\nformat: html\nengine: knitr\n\nformat: html\nengine: jupyter\n\nCódigo\n\n\n```{r}\nlibrary(dplyr)\nmtcars |&gt; \n  group_by(cyl) |&gt; \n  summarize(mean = mean(mpg))\n```\n\n```{python}\nfrom siuba import *\n(mtcars\n  &gt;&gt; group_by(_.cyl)\n  &gt;&gt; summarize(avg_mpg = _.mpg.mean()))\n```\n\nTexto\n# Título 1\nEsta es una frase con algo de **texto en negrita**, *texto en cursiva* y una \n![Descripción de la imagen](imagen.png){fig-alt=«Alt text para la imagen»}."
+  },
+  {
+    "objectID": "slides/workflow/index.html#rutas-en-quarto",
+    "href": "slides/workflow/index.html#rutas-en-quarto",
+    "title": "Reproducibilidad",
+    "section": "Rutas en Quarto",
+    "text": "Rutas en Quarto\nAl usar un documento de Quarto dentro de un proyecto, es importante ser consciente de la ubicación de los archivos utilizados; por eso, las rutas relativas son fundamentales. Por diseño, el directorio de trabajo para renderizar archivos de Quarto es el directorio del propio archivo, que no siempre es la raíz del proyecto (.Rproj).\n\nTenemos el siguiente proyecto. Queremos mostrar data.csv en index.qmd\nproyecto/\n├── proyecto.Rproject # proyecto de RStudio\n├── code/\n│   └── index.qmd     # arhcivo de Quarto\n└── data/\n    └── data.csv/     # los datos\n\n\n\n\nRuta relativa\n\nread.csv(\n  \"../data.csv\"\n)\n\n# los .. significa «una carpeta \n# arriba de donde yo esté»\n\n\n\nRuta relativa con here\n\nread.csv(\n  here::here(\n    \"data\",\n    \"data.csv\"\n  )\n)"
+  },
+  {
+    "objectID": "slides/workflow/index.html#flujo-de-trabajo",
+    "href": "slides/workflow/index.html#flujo-de-trabajo",
+    "title": "Reproducibilidad",
+    "section": "Flujo de trabajo",
+    "text": "Flujo de trabajo\n\n\n\nhttps://xkcd.com/2054/\n\n\n\n\n\nProcesos y código\n\n\n\n\n\n\n\nProcesos y objetos\n\n\n\n\n\n\n\nImágenes de Bryan et al. (2024)."
+  },
+  {
+    "objectID": "slides/workflow/index.html#una-api-humana-para-el-análisis",
+    "href": "slides/workflow/index.html#una-api-humana-para-el-análisis",
+    "title": "Reproducibilidad",
+    "section": "Una API humana para el análisis",
+    "text": "Una API humana para el análisis\n\nSiempre que se pueda, se ha de apostar por formatos abiertos: CSV, JPEG, HTML, ODS, ODT, PDF, PNG, SVG, TSV, TXT. Imagen Bryan et al. (2024)."
+  },
+  {
+    "objectID": "slides/workflow/index.html#control-de-versiones",
+    "href": "slides/workflow/index.html#control-de-versiones",
+    "title": "Reproducibilidad",
+    "section": "Control de versiones",
+    "text": "Control de versiones\n\n\n\n\nUn control de versiones es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante. […] en realidad puedes hacer lo mismo con casi cualquier tipo de archivo que encuentres en una computadora. Chacon (2014)\n\n\n\nUn método básico y rudimentario del control de versiones es tener copias de un mismo archivo.\n2015-11-09_package-installation.R\n2016-05-21_package-installation.R\n2017-09-05_package-installation.R\n2018-06-29_package-installation.R\n\n\n\n\n\n\n\n\t\n\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\n\n\nSe comienza con una versión básica y se van guardando sólo los cambios. Gonzalez et al. (2019).\n\n\n\n\n\n\n\nUna revisión «normal» de un documento. PHD Comics."
+  },
+  {
+    "objectID": "slides/workflow/index.html#git-y-github",
+    "href": "slides/workflow/index.html#git-y-github",
+    "title": "Reproducibilidad",
+    "section": "Git y GitHub",
+    "text": "Git y GitHub\n\n\n\nGit es un sistema de control de versiones. Git gestiona la evolución de un conjunto de archivos -llamado repositorio- de una forma sana y muy estructurada. En un flujo de trabajo basado en Git, documentas y, opcionalmente, expones tu trabajo a medida que avanzas. La comunicación y la colaboración son las aplicaciones estrella del control de versiones. Bryan (2018).\n\n\n\n\n\nLogo de Git.\n\n\n\n\n\n\nGitHub es el mayor proveedor de alojamiento de repositorios Git, y es el punto de encuentro para que millones de desarrolladores colaboren en el desarrollo de sus proyectos. Un gran porcentaje de los repositorios Git se almacenan en GitHub, y muchos proyectos de código abierto lo utilizan para hospedar su Git, realizar su seguimiento de fallos, hacer revisiones de código y otras cosas. Chacon (2014).\n\n\n\n\n\nEl invertocat logo de Github. La silueta es The Octocat, la mascota de GitHub."
+  },
+  {
+    "objectID": "slides/workflow/index.html#entornos-reproducibles",
+    "href": "slides/workflow/index.html#entornos-reproducibles",
+    "title": "Reproducibilidad",
+    "section": "Entornos reproducibles",
+    "text": "Entornos reproducibles\n\n\nUn entorno (environment) consiste en todas las dependencias necesarias para que el código se ejecute correctamente. Esto incluye el propio R, los paquetes de R y las dependencias del sistema. Puede ser difícil gestionar entornos reproducibles:\n\n\nEl código que solía ejecutarse ya no se ejecuta, a pesar de que el código no ha cambiado.\nTener miedo de actualizar o instalar un nuevo paquete, ya que podría romper su código o el de otra persona.\nEscribir install.packages() en tu entorno no hace nada, o no hace lo correcto.\n\n\n\n\n\npackage managerspackage managerslanguage managerlanguage manager...languageversionlanguage...environmentmanagerenvironment...yourprojectyour...Text is not SVG - cannot display\n«El proyecto cebolla»: apostar por el flujo de trabajo orientado a proyectos significa adoptar herramientas que permitan gestionar mediante programación cada una de las capas de la configuración del proyecto. Bryan et al. (2024)\n\n\n\n\nEstos retos pueden abordarse mediante una cuidadosa combinación de herramientas y estrategias. Acá sólo abordamos: la actualización segura de paquetes y la colaboración en equipo. Quedando por fuera el manejo de varias versiones de R y las dependencias del sistema, para lo cual es recomendable investigar sobre rig y Docker.\n\n\nhttps://xkcd.com/1987/"
+  },
+  {
+    "objectID": "slides/workflow/index.html#renv",
+    "href": "slides/workflow/index.html#renv",
+    "title": "Reproducibilidad",
+    "section": "renv",
+    "text": "renv\n\n\nrenv ayuda a crear entornos reproducibles para sus proyectos de R, haciendo los proyectos:\n\n\nAislados: la instalación de un paquete nuevo o actualizado para un proyecto no romperá sus otros proyectos, y viceversa. renv proporciona a cada proyecto su propia biblioteca privada.\nPortátil: transporte fácilmente sus proyectos de un ordenador a otro, incluso a través de diferentes plataformas. renv facilita la instalación de los paquetes de los que depende su proyecto.\nReproducible: renv registra las versiones exactas de los paquetes de los que depende, y asegura que esas versiones exactas son las que se instalan allá donde vaya.\n\n\n\n\n\n\n\n\n\n\n\nLos verbos y sustantivos más importantes de renv.\n\n\n\n\nhttps://rstudio.github.io/renv/"
+  },
+  {
+    "objectID": "slides/workflow/index.html#section",
+    "href": "slides/workflow/index.html#section",
+    "title": "Reproducibilidad",
+    "section": "",
+    "text": "https://rcd.ucsb.edu/sites/default/files/2023-12/dls-202311-renv-white.pdf"
+  },
+  {
+    "objectID": "slides/workflow/index.html#referencias",
+    "href": "slides/workflow/index.html#referencias",
+    "title": "Reproducibilidad",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nBryan, J. (2015). How to name files. https://speakerdeck.com/jennybc/how-to-name-files\n\n\nBryan, J. (2017). Project-oriented workflow. https://www.tidyverse.org/blog/2017/12/workflow-vs-script/\n\n\nBryan, J. (2018). Excuse me, do you have a moment to talk about version control? The American Statistician, 72(1), 20-27. https://doi.org/10.1080/00031305.2017.1399928\n\n\nBryan, J., Hester, J., Pileggi, S., & Aja, E. D. (2024). What they forgot to teach you about R: the stuff you need to know about R, besides data analysis. https://rstats.wtf/\n\n\nCampitelli, E., & Corrales, P. (2024). An R reproducibility toolkit for the practical researcher. https://reproducibility.rocks/\n\n\nChacon, S. (2014). Pro Git (2.ª ed.). Apress. https://git-scm.com/book/en/v2\n\n\nGonzalez, I., Huang, D., Hejazi, N., Koziar, K., & Munk, M. (2019). Version Control with Git: Summary and Setup. https://swcarpentry.github.io/git-novice/index.html\n\n\nHiggins, P. D. R. (2024). Reproducible medical research with r. https://bookdown.org/pdr_higgins/rmrwr/\n\n\nLopp, S. (2019). Reproducible Environments. https://rviews.rstudio.com/2019/04/22/reproducible-environments/\n\n\nPosit Software. (2022). RStudio User Guide - renv. https://docs.posit.co/ide/user/ide/guide/environments/r/renv.html\n\n\nPosit Software. (2024). Reproducible Environments. https://solutions.posit.co/envs-pkgs/environments/\n\n\nSlingsby, J. (2024). A minimal introduction to reproducible research. https://www.ecologi.st/data-management/\n\n\nWickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science: import, tidy, transform, visualize, and model data (2.ª ed.). O’Reilly. https://r4ds.hadley.nz\n\n\n\n\n\n\nInvestigación Reproducible Quarto"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Investigación Reproducible con Quarto",
@@ -110,5 +530,677 @@
     "title": "Investigación Reproducible con Quarto",
     "section": "Unidad 5: Métodos de publicación",
     "text": "Unidad 5: Métodos de publicación\n\nQuarto Pub\nGitHub Pages\nExtensiones y plantillas"
+  },
+  {
+    "objectID": "slides/git-github/index.html#una-historia-conocida-y-sufrida",
+    "href": "slides/git-github/index.html#una-historia-conocida-y-sufrida",
+    "title": "Git & GitHub",
+    "section": "Una historia conocida… y sufrida",
+    "text": "Una historia conocida… y sufrida\n\n\n\n\n\nUna revisión «normal» de un documento. PHD Comics.\n\n\n\n\n\n\nHistorial de versiones en Google Docs"
+  },
+  {
+    "objectID": "slides/git-github/index.html#control-de-versiones",
+    "href": "slides/git-github/index.html#control-de-versiones",
+    "title": "Git & GitHub",
+    "section": "Control de versiones",
+    "text": "Control de versiones\n\nUn control de versiones es un sistema que registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante. […] en realidad puedes hacer lo mismo con casi cualquier tipo de archivo que encuentres en una computadora. Chacon (2014)\n\nUn método básico y rudimentario del control de versiones es terner copias de un mismo archivo.\n\n2015-11-09_package-installation.R\n2016-05-21_package-installation.R\n2017-09-05_package-installation.R\n2018-06-29_package-installation.R\n\n\n\n\n\n\t\n\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\n\t\n\t\t\n\t\t\n\t\t\t\n\t\t\n\t\n\nSe comienza con una versión básica y se van guardando sólo los cambios. Gonzalez et al. (2019)."
+  },
+  {
+    "objectID": "slides/git-github/index.html#sistemas-de-control-de-versiones",
+    "href": "slides/git-github/index.html#sistemas-de-control-de-versiones",
+    "title": "Git & GitHub",
+    "section": "Sistemas de control de versiones",
+    "text": "Sistemas de control de versiones\n\n\nLocales\n\n\n\nContiene una simple base de datos, en la que se lleva el registro de todos los cambios realizados a los archivos.\n\n\n\nCentralizados\n\n\n\nTienen un único servidor que contiene todos los archivos versionados y varios clientes que descargan los archivos desde ese lugar central.\n\n\n\nDistribuidos\n\n\n\nLos clientes no solo descargan la última copia instantánea de los archivos, sino que se replica completamente el repositorio.\n\n\n\n\nImágenes tomadas de Chacon (2014)."
+  },
+  {
+    "objectID": "slides/git-github/index.html#git",
+    "href": "slides/git-github/index.html#git",
+    "title": "Git & GitHub",
+    "section": "Git",
+    "text": "Git\n\n\n\nComo muchas de las grandes cosas en esta vida, Git comenzó con un poco de destrucción creativa y una gran polémica. Chacon (2014).\n\n\nGit es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes con velocidad y eficiencia.\n\n\n\n\nLinus Torvalds. Krd, CC BY-SA 3.0, via Wikimedia Commons"
+  },
+  {
+    "objectID": "slides/git-github/index.html#por-qué-git",
+    "href": "slides/git-github/index.html#por-qué-git",
+    "title": "Git & GitHub",
+    "section": "Por qué Git",
+    "text": "Por qué Git\n\n\n\nLas ventajas de Git solo superan las desventajas cuando consideras la sobrecarga de trabajar con otras personas, incluyendo tu yo futuro. ¿Y quién entre nosotros no necesita hacer eso? En un flujo de trabajo basado en Git, documentas y, opcionalmente, expones tu trabajo a medida que avanzas. La comunicación y la colaboración son las aplicaciones estrella del control de versiones. El modelo de gestión de archivos de Git puede sentirse incómodamente rígido, pero permite la distribución de archivos entre diferentes personas, computadoras y tiempo. Bryan (2018).\n\n\n\n\n\nProbablmente un mundo mejor. Lennart Wittkuhn."
+  },
+  {
+    "objectID": "slides/git-github/index.html#github",
+    "href": "slides/git-github/index.html#github",
+    "title": "Git & GitHub",
+    "section": "GitHub",
+    "text": "GitHub\n\n\n\nGitHub es el mayor proveedor de alojamiento de repositorios Git, y es el punto de encuentro para que millones de desarrolladores colaboren en el desarrollo de sus proyectos. Un gran porcentaje de los repositorios Git se almacenan en GitHub, y muchos proyectos de código abierto lo utilizan para hospedar su Git, realizar su seguimiento de fallos, hacer revisiones de código y otras cosas. Chacon (2014).\n\n\nIncluso para proyectos individuales privados, es una buena idea subir tu trabajo a una ubicación remota para tener tranquilidad. ¿Por qué? Porque es bastante fácil estropear tu repositorio local de Git, especialmente cuando eres nuevo en esto. La buena noticia es que a menudo solo la infraestructura de Git está estropeada. ¡Tus archivos están bien! Bryan (2018).\n\n\n\n\n\nThe Octocat, la mascota de GitHub.\n\n\n\n\nEntre las alternativas a GitHub destacan Bitbucket y GitLab."
+  },
+  {
+    "objectID": "slides/git-github/index.html#git-y-github-en-rstudio",
+    "href": "slides/git-github/index.html#git-y-github-en-rstudio",
+    "title": "Git & GitHub",
+    "section": "Git y GitHub en RStudio",
+    "text": "Git y GitHub en RStudio\nRStudio ofrece integración con Git y GitHub permitiendo un flujo de trabajo continuo desde el mismo IDE.\n\nPasos para sincronizar el repositorio desde RStudio."
+  },
+  {
+    "objectID": "slides/git-github/index.html#referencias",
+    "href": "slides/git-github/index.html#referencias",
+    "title": "Git & GitHub",
+    "section": "Referencias",
+    "text": "Referencias\n\n\n\n\nInvestigación Reproducible con Quarto\n\n\n\n\nBryan, Jennifer. 2018. «Excuse Me, Do You Have a Moment to Talk about Version Control?» The American Statistician 72 (1): 20-27. https://doi.org/10.1080/00031305.2017.1399928.\n\n\nChacon, Scott. 2014. Pro Git. 2.ª ed. The expert’s voice en programa development. New York, NY: Apress. https://git-scm.com/book/en/v2.\n\n\nGonzalez, Ivan, Daisie Huang, Nima Hejazi, Katherine Koziar, y Madicken Munk. 2019. «Version Control with Git: Summary and Setup». https://swcarpentry.github.io/git-novice/index.html."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#proposito-1",
+    "href": "slides/intro-r/index.html#proposito-1",
+    "title": "Introducción a R",
+    "section": "Proposito 1",
+    "text": "Proposito 1"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#proposito-2",
+    "href": "slides/intro-r/index.html#proposito-2",
+    "title": "Introducción a R",
+    "section": "Proposito 2",
+    "text": "Proposito 2\n\n\nEspecieIslaSexonPorcentaje (%)AdelieBiscoeHembra2250.00Macho2250.00DreamHembra2748.21Macho2850.00NA11.79TorgersenHembra2446.15Macho2344.23NA59.62ChinstrapDreamHembra3450.00Macho3450.00GentooBiscoeHembra5846.77Macho6149.19NA54.03"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#qué-es-r",
+    "href": "slides/intro-r/index.html#qué-es-r",
+    "title": "Introducción a R",
+    "section": "Qué es R",
+    "text": "Qué es R\n\n\n\nR es un sistema para computación estadística y gráficos. Consiste en un lenguaje más un entorno de ejecución con gráficos, un depurador, acceso a ciertas funciones del sistema y la capacidad de ejecutar programas almacenados en archivos de script. R Core Team (2024)\n\n\n\n\n\n\n\n\nLenguaje: R es un lenguaje de programación, con sintaxis y funciones propias.\nEntorno de ejecución: R proporciona un entorno en el que se pueden ejecutar programas escritos en R.\nGráficos: R incluye capacidades avanzadas para la creación de gráficos.\nDepurador: R incluye herramientas para encontrar y corregir errores en sus scripts.\nAcceso a funciones del sistema: R puede interactuar con el sistema operativo.\nProgramas en scripts: se pueden escribir programas y guardarlos en archivos de texto con extensión .R (scripts)."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#historia",
+    "href": "slides/intro-r/index.html#historia",
+    "title": "Introducción a R",
+    "section": "Historia",
+    "text": "Historia\n\nAlgunos hitos importantes en la historia de R. Modificado de Giorgi et al. (2022)."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#nuestros-guías",
+    "href": "slides/intro-r/index.html#nuestros-guías",
+    "title": "Introducción a R",
+    "section": "Nuestros guías",
+    "text": "Nuestros guías\n\n\n\n\n\nR for data science de Wickham et al. (2023). Disponible en r4ds.hadley.nz/\n\n\n\n\n\n\nQuizá la persona más importante en el ecosistema R."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#flujo-de-trabajo-en-ciencias-de-datos",
+    "href": "slides/intro-r/index.html#flujo-de-trabajo-en-ciencias-de-datos",
+    "title": "Introducción a R",
+    "section": "Flujo de trabajo en ciencias de datos",
+    "text": "Flujo de trabajo en ciencias de datos\n\nEn este modelo, todo comienza con la importación y limpieza de los datos. Seguido de un ciclo iterativo de transformación, visualización y modelado. Finalmente, termina con comunicar. Tomado de Wickham et al. (2023)."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#programar-es-como-llevar-un-buen-matrimonio",
+    "href": "slides/intro-r/index.html#programar-es-como-llevar-un-buen-matrimonio",
+    "title": "Introducción a R",
+    "section": "Programar es como llevar un buen matrimonio",
+    "text": "Programar es como llevar un buen matrimonio\n\n\n\n\n¡Ya cómete la maldita naranja!"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#recordemos-donde-estamos",
+    "href": "slides/intro-r/index.html#recordemos-donde-estamos",
+    "title": "Introducción a R",
+    "section": "Recordemos donde estamos",
+    "text": "Recordemos donde estamos\n\nApariencia por defecto de RStudio."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ejecutar-código",
+    "href": "slides/intro-r/index.html#ejecutar-código",
+    "title": "Introducción a R",
+    "section": "Ejecutar código",
+    "text": "Ejecutar código\nEjecutar código en la consola de R es muy sencillo. Sólo tienes que escribirlo al lado de símbolo de mayor que &gt; y presionar enter para ejecutarlo. En la consola de R, el signo &gt; se conoce como prompt, mientras que el código que escribes se llama un comando.\n\n\n\nConsole\n\n&gt; 4 + 2\n[1] 6\n&gt; 4 * 2\n[1] 8\n&gt; 4 / 2\n[1] 2\n&gt; 4**2\n[1] 16\n\n\n\nEl número que aparece entre corchetes [] informa que esta línea comienza con ese valor del resultado. Algunos comandos devuelven más de un valor y sus resultados pueden ocupar múltiples líneas. Estos números se pueden ignorara en la mayoría de los casos.\nLos símbolos +, suma; -, resta; *, multiplicación; /, división; ** o ^, exponencial; son algunos de operadores matemáticos que tiene R."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#otros-operadores",
+    "href": "slides/intro-r/index.html#otros-operadores",
+    "title": "Introducción a R",
+    "section": "Otros operadores",
+    "text": "Otros operadores\n\nEl operador dos puntos : devuelve todos los enteros entre dos enteros. Es una forma fácil de crear una secuencia de números.\n\n\nConsole\n\n&gt; 4:2\n[1] 4 3 2\n\n\n\nLos operadores de comparación son: == igual != no igual, &gt; mayor que, &lt; menor que, &gt;= mayor o igual que, &lt;= menor o igual que.\n\n\nConsole\n\n&gt; 4 == 2\n[1] FALSE\n&gt; 4 != 2\n[1] TRUE\n\n\n\nLos operadores lógicos son: | OR, & AND, ! NOT.\n\n\nConsole\n\n&gt; TRUE | FALSE\n[1] TRUE\n&gt; TRUE & FALSE\n[1] FALSE\n&gt; TRUE & !FALSE\n[1] TRUE"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#crear-objetos",
+    "href": "slides/intro-r/index.html#crear-objetos",
+    "title": "Introducción a R",
+    "section": "Crear objetos",
+    "text": "Crear objetos\nLas entidades que R crea y manipula se denominan objetos. Un objeto es un nombre que puedes usar para llamar a los datos almacenados. Los objetos se crean utilizando el operador de asignación &lt;-. Cuando se crea un objeto este aparecerá en el environment pane de RStudio. En RStudio el atajo de teclado para &lt;- es Alt--Alt--\n\n\n\nconsole\n\n&gt; x &lt;- 4 * 2\n\n\n\nEn R los nombres se pueden nombrar de cualquier manera, con dos excepciones. Primero, un nombre no puede comenzar con un número. Segundo, un nombre no puede usar algunos símbolos especiales, como ^, !, $, @, +, -, /, o *.\n\n\n\nLlamar objetos\nEl valor de x no se imprime en consola, sólo se almacena. Si se quiere ver el valor, hay que llamarlo.\n\n\nConsole\n\n&gt; x\n[1] 8"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#crear-objetos-1",
+    "href": "slides/intro-r/index.html#crear-objetos-1",
+    "title": "Introducción a R",
+    "section": "Crear objetos",
+    "text": "Crear objetos\n\nSe pueden combinar múltiples elementos en un vector usando c()\n\n\nConsole\n\n# crear vector de números primos\nnumeros_primos &lt;- c(2, 3, 5, 7, 11, 13)\n\n\n\n\nOperación con vectores\nAsí mismo, se pueden realizar operación con los vectores.\n\n\nConsole\n\n# Multiplicar vector de números primos por dos.\n&gt; numeros_primos * 2\n[1]  4  6 10 14 22 26\n\nR ignora cualquier texto después de #. Esto permite escribir comentarios, texto que es ignorado por R pero leído por otras personas. Usa comentarios para explicar el porqué de tu código, no el cómo ni el qué."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#tipos-de-datos",
+    "href": "slides/intro-r/index.html#tipos-de-datos",
+    "title": "Introducción a R",
+    "section": "Tipos de datos",
+    "text": "Tipos de datos\n\nEn R, hay 5 tipos de datos principales:\n\nnumeric:\n\ndouble: números reales (con decimales)\ninteger: números enteros\n\ncharacter: cadenas de texto (a.k.a. strings)\ncomplex: números complejos.\nlogical: TRUE, FALSE, NA. (a.k.a. booleanos)\n\n\n\nPara identificar el tipo de datos:\n\nclass(): dvuelve la clase de un objeto.\ntypeof(): muestra el tipo de dato subyacente.\nmode(): informa el modo de almacenamiento.\nis.numeric(), is.character(), is.logical(), etc.: verifica si el dato es de un tipo específico."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#estructura-de-datos",
+    "href": "slides/intro-r/index.html#estructura-de-datos",
+    "title": "Introducción a R",
+    "section": "Estructura de datos",
+    "text": "Estructura de datos\n\nEn R, estos son las principales estructuras de datos:\n\nVectores: unidimensionales y homogéneos.\nMatrices: bidimensionales y homogéneas.\nArrays: multidimensionales y homogéneos.\nData frames: bidimensionales y heterogéneos.\nListas: estructuras heterogéneas y unidimensionales.\nFactores: datos categorizados\n\n\n\nPara identificar la estructura de datos:\n\nstr(): muestra la estructura compacta del objeto.\ndim(): devuelve las dimensiones (filas y columnas).\nlength(): número total de elementos.\nattributes(): verifica los atributos del objeto.\nsummary(): resumen estadístico o descriptivo del objeto."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#funciones",
+    "href": "slides/intro-r/index.html#funciones",
+    "title": "Introducción a R",
+    "section": "Funciones",
+    "text": "Funciones\nLas funciones son bloques de código que realizan una tarea específica y que pueden ser invocadas (llamadas) desde cualquier parte.\n\nEn R las funciones se han de llamar así:\n\n\nConsole\n\nnombre_funcion(argumento_1 = valor_1, argumento_2 = valor_2, ...)\n\n\n\nPor ejemplo la función seq() que crea secuencias regulares de números.\n\n\nConsole\n\n&gt; seq(from = 1, to = 10)\n [1]  1  2  3  4  5  6  7  8  9 10\n\n\n\nA menudo omitimos los nombres de los primeros argumentos en las llamadas a funciones, por lo que podemos reescribir esto de la siguiente manera:\n\n\nConsole\n\n&gt; seq(1, 10)\n [1]  1  2  3  4  5  6  7  8  9 10\n\n\n\nAlgunas funciones de R: mean() calcula la media de un vector. sum() suma los elementos de un vector. summary() proporciona un resumen estadístico de un objeto. str() muestra la estructura de un objeto."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#paquetes",
+    "href": "slides/intro-r/index.html#paquetes",
+    "title": "Introducción a R",
+    "section": "Paquetes",
+    "text": "Paquetes\nLos paquetes son las unidades fundamentales del código reproducible en R. Incluyen funciones reutilizables de R, la documentación que describe cómo usarlas y datos de muestra. Wickham & Bryan (2023) Muchos paquetes de R se encuentran en The Comprehensive R Archive Network (CRAN). CRAN es una red de servidores FTP y web alrededor del mundo que almacenan versiones idénticas y actualizadas del código y la documentación de R.\n\n\nInstalar y usar paquetes\nEn R (casi) todos los paquetes se pueden instalar utilizando la función install.packages().\n\n\nConsole\n\ninstall.packages(\"ethnobotanyR\")\n\n\n\nPara poder usar los paquetes se han de cargar (llamar) usando la función library().\n\n\nConsole\n\nlibrary(ethnobotanyR)\n\n\n\nFunciones de diferentes paquetes pueden tener el mismo nombre. Por lo cual es recomendable ser explicito a la hora de llamarlas, para lo cual se utilizan :: entre el nombre del paquete y el nombre de la función.\n\n\nConsole\n\nnombre_paquete::nombre_funcion()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#esto-no-es-una-pipa",
+    "href": "slides/intro-r/index.html#esto-no-es-una-pipa",
+    "title": "Introducción a R",
+    "section": "Esto no es una pipa |>",
+    "text": "Esto no es una pipa |&gt;\nR 4.1.0 introdujo el operador |&gt; (pipe). Este operador toma la salida de una función y la pasa a otra función como argumento. Enlaza todos los pasos del análisis de datos haciendo que el código sea más eficiente y legible.\n\n\n\nConsole\n\n&gt; media_numeros_primos &lt;- mean(c(2, 3, 5, 7, 11, 13))\n&gt; print(media_numeros_primos)\n[1] 6.833333\n\n\n\n\n\nConsole\n\n&gt; numeros_primos &lt;- c(2, 3, 5, 7, 11, 13)\n&gt; media_numeros_primos &lt;- mean(numeros_primos)\n&gt; print(media_numeros_primos)\n[1] 6.833333\n\n\n\n\n\nConsole\n\n&gt; media_numeros_primos &lt;- \n+   c(2, 3, 5, 7, 11, 13) |&gt; \n+   mean() |&gt; \n+   print()\n[1] 6.833333\n\nEn RStudio hay que activarlo yendo Tools -&gt; Global Options -&gt; Code -&gt; Editing. El atajo de teclado para |&gt; es Shift-Ctrl-MShift-Ctrl-M"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#scripts",
+    "href": "slides/intro-r/index.html#scripts",
+    "title": "Introducción a R",
+    "section": "Scripts",
+    "text": "Scripts\nLos scripts son archivos que contienen código en lenguaje R, organizado de manera secuencial para realizar operaciones específicas, análisis de datos, o cualquier tarea que se pueda automatizar.\n\n\n\n\nscript.r\n\n# Instalar paquetes\ninstall.packages(\n  c(\n    \"tidyverse\",\n    \"palmerpenguins\"\n    \"ggthemes\"\n  )\n)\n\n# Cargar paquetes\nlibrary(tidyverse)\nlibrary(palmerpenguins)\nlibrary(ggthemes)\n\n# Crea un vector con el gráfico hecho en `ggplot2`\nfig_pinguinos &lt;- \n  palmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = flipper_length_mm,\n      y = body_mass_g\n    )\n  ) + \n  ggplot2::geom_point()\n\n# Muestras el gráfico\nfig_pinguinos\n\n\nEn RStudio hay varias maneras de crear un script y otros archivos.\n\nEn la opción a File -&gt; New File -&gt; New R script\nUsando el atajo de teclado Shift-Ctrl-NShift-Ctrl-N\nEn la opción New File, sobre la esquina superior derecha del Source pane, en este icono \nEn la opción New Blank File de la pestaña Files en el Output pane \nUsando la Paleta de comandos Ctrl-Shift-PCtrl-Shift-P o Tools &gt; Show Command Palette\n\nEl código de un script se puede correr linea por linea usando Ctrl-EnterCtrl-Enter o Ctrl-Shift-EnterCtrl-Shift-Enter corre todo el script."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#que-alguien-llame-a-alguien",
+    "href": "slides/intro-r/index.html#que-alguien-llame-a-alguien",
+    "title": "Introducción a R",
+    "section": "Que alguien llame a alguien",
+    "text": "Que alguien llame a alguien\nAntes de pedir ayuda a los demás, suele ser buena idea que intentes ayudarte a ti mismo.\n\n\nDentro de R\nLa función help() o el operador ? proporcionan acceso a documentación de las funciones, conjuntos de datos y otros objetos de R. Por ejemplo: help(lm) o help(\"lm\"), o ?lm o ?\"lm\". Si el paquete de la función no está cargado se tendría que usar help(rlm, package=\"MASS\"). Para acceder a la documentación de un paquete se ha usar help(package=\"MASS\"). Se puede usar ?? para una palabra o frase en la documentación.\n\n\n\n\nFuera de R\n\n\n\nGoogle is your friend\nStack Overflow\nhttps://search.r-project.org\nhttps://rseek.org\n\n\n\n\n\n\n\nSiempre es buena idea hacer un reprex (minimal reproducible example). Un buen reprex facilita que otras personas puedan ayudarlo y, a menudo, usted mismo descubrirá el problema durante el proceso. Hacer un reprex consiste en:\n\nHacer que tu código sea reproducible, usando reprex\nHacerlo mínimo eliminando todo lo que no esté relacionado con el problema."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#tidyverse",
+    "href": "slides/intro-r/index.html#tidyverse",
+    "title": "Introducción a R",
+    "section": "Tidyverse",
+    "text": "Tidyverse\nEl tidyverse es una colección estructurada de paquetes de R diseñados para la ciencia de datos. Todos los paquetes comparten una filosofía de diseño subyacente, una gramática y estructuras de datos. Wickham et al. (2019).\n\n\n\nconsole\n\ninstall.packages(\"tidyverse\")\n\nCarguemos el tidyverse y observemos la salida.\n\n\nconsole\n\n&gt; library(tidyverse)\n── Attaching core tidyverse packages ─────────────────────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ───────────────────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package to force all conflicts to become errors"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#tidyverse-y-la-ciencia-de-datos",
+    "href": "slides/intro-r/index.html#tidyverse-y-la-ciencia-de-datos",
+    "title": "Introducción a R",
+    "section": "Tidyverse y la ciencia de datos",
+    "text": "Tidyverse y la ciencia de datos\n\nEl Tidyverse tiene multipes paquetes que nos ayudaran durante todo el proceso de analizar los datos. Tomado de Çetinkaya-Rundel (2023)."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#datos-ordenados",
+    "href": "slides/intro-r/index.html#datos-ordenados",
+    "title": "Introducción a R",
+    "section": "Datos ordenados",
+    "text": "Datos ordenados\nHay tres reglas interrelacionadas que hacen que un conjunto de datos esté ordenado:\n\nCada variable es una columna; cada columna es una variable.\nCada observación es una fila; cada fila es una observación.\nCada valor es una celda; cada celda es un único valor.\n\n\n\n\n\n  \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n  \n    \n      \n        image/svg+xml\n        \n        \n      \n    \n  \n  \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n      \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n    \n    \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n      \n      \n      \n      \n      \n      \n      \n      \n      \n      \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n\nLas siguientes tres reglas hacen que un conjunto de datos esté ordenado: las variables son columnas, las observaciones son filas y los valores son celdas. Tomado de Wickham et al. (2023).\n\n\n\n\nArtículo original Wickham (2014)"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#tibbles",
+    "href": "slides/intro-r/index.html#tibbles",
+    "title": "Introducción a R",
+    "section": "Tibbles",
+    "text": "Tibbles\n\nData frame: estructura de datos bidimensional de variables (en las columnas) y observaciones (en las filas), puede almacenar diferentes tipos de datos.\n\n\niris\n\n\n\n  Sepal.Length Sepal.Width Petal.Length Petal.Width Species\n1          5.1         3.5          1.4         0.2  setosa\n2          4.9         3.0          1.4         0.2  setosa\n3          4.7         3.2          1.3         0.2  setosa\n4          4.6         3.1          1.5         0.2  setosa\n5          5.0         3.6          1.4         0.2  setosa\n\n\n\n\nTibble: versión moderna de un data frame, optimizados para un manejo de datos más intuitivo y legible. Pertenece al tidyverse.\n\n\n\n\npalmerpenguins::penguins\n\n\n\n# A tibble: 5 × 8\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n1 Adelie  Torgersen           39.1          18.7               181        3750\n2 Adelie  Torgersen           39.5          17.4               186        3800\n3 Adelie  Torgersen           40.3          18                 195        3250\n4 Adelie  Torgersen           NA            NA                  NA          NA\n5 Adelie  Torgersen           36.7          19.3               193        3450\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#conozcamos-los-datos",
+    "href": "slides/intro-r/index.html#conozcamos-los-datos",
+    "title": "Introducción a R",
+    "section": "Conozcamos los datos",
+    "text": "Conozcamos los datos\n\n\nLa función dplyr::glimpse() es similar a utils::str(), pero intenta mostrar la mayor cantidad de datos posible.\n\n\npalmerpenguins::penguins |&gt; \n  dplyr::glimpse()\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n\n\n\n\nLas tres variables de palmerpenguins::penguins que usaremos son:\n\nspecies: la especie de un pingüino (Adelie, Chinstrap o Gentoo).\nflipper_length_mm: longitud de la aleta de un pingüino, en milímetros.\nbody_mass_g: masa corporal de un pingüino, en gramos.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTomado de Horst et al. (2020).\n\n\n\n\n\nUtilice ?palmerpenguins::penguins o ?penguins para saber más sobre los datos."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2",
+    "href": "slides/intro-r/index.html#ggplot2",
+    "title": "Introducción a R",
+    "section": "ggplot2",
+    "text": "ggplot2\n\n\nSistema para la creación de gráficos. Se basa en la gramática de gráficos (marco teórico desarrollada por Leland Wilkinson para construir gráficos de manera sistemática y coherente), permitiendo construir gráficos de manera declarativa mediante capas de componentes, como datos, escalas, geoms (formas geométricas), facetas y temas.\n\n\n\n\n\n\n\n\n\n\n\n\nggplot2 es como los ogros.\n\n\n\n\n\n\nLos siete componentes que permiten crear un gráfico en ggplot2."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-data",
+    "href": "slides/intro-r/index.html#ggplot2-data",
+    "title": "Introducción a R",
+    "section": "ggplot2 — data",
+    "text": "ggplot2 — data\nPara comenzar un gráfico, primero definimos un objeto gráfico usando la función ggplot2::ggplot(). El primer argumento de ggplot2::ggplot() son los datos que se utilizará en el gráfico:\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins\n)"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-mapping",
+    "href": "slides/intro-r/index.html#ggplot2-mapping",
+    "title": "Introducción a R",
+    "section": "ggplot2 — mapping",
+    "text": "ggplot2 — mapping\nmapping define cómo las variables de los datos se asignan a propiedades visuales (aesthetics) del gráfico. Se definen con ggplot2::aes(). x e y especifican qué variables se asignarán a los ejes x e y.\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n)"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-layers-geometry",
+    "href": "slides/intro-r/index.html#ggplot2-layers-geometry",
+    "title": "Introducción a R",
+    "section": "ggplot2 — layers: geometry",
+    "text": "ggplot2 — layers: geometry\ngeometry es el objeto geométrico que se utiliza para representar datos: puntos, líneas o rectángulos. Se definen con geom_*(). A menudo se describen los gráficos por el tipo de geom que utilizan1.\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  ggplot2::geom_point()\n\n\n\n\n\n\n\n\n\ngeom_bar() = gráficos de barras, geom_line() = gráficos de líneas, geom_boxplot() = diagramas de caja, geom_point() = gráficos de dispersión, entre otros."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-agregando-aesthetics",
+    "href": "slides/intro-r/index.html#ggplot2-agregando-aesthetics",
+    "title": "Introducción a R",
+    "section": "ggplot2 — agregando aesthetics",
+    "text": "ggplot2 — agregando aesthetics\nPodemos agregar más propiedades visuales (aesthetics). ggplot2 asigna un valor único (como color) a cada nivel de una variable categórica y añade una leyenda que lo explica. Este proceso se llama scaling.\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  ggplot2::geom_point()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-agregando-layers",
+    "href": "slides/intro-r/index.html#ggplot2-agregando-layers",
+    "title": "Introducción a R",
+    "section": "ggplot2 — agregando layers",
+    "text": "ggplot2 — agregando layers\nPodemos hacer los gráficos más informativos agregando más layers, ya sean objetos geométricos (geom_*), transformaciones estadísticas (stats_*) o ajustes de posición (position_*).\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g,\n    color = species\n  )\n) +\n  ggplot2::geom_point() + \n  ggplot2::geom_smooth(\n    method = \"lm\"\n  )"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-asignación-global-o-local",
+    "href": "slides/intro-r/index.html#ggplot2-asignación-global-o-local",
+    "title": "Introducción a R",
+    "section": "ggplot2 — asignación global o local",
+    "text": "ggplot2 — asignación global o local\nLos aesthetics pueden agregarse de forma global para todo los geom del gráfico o pueden asignarse de forma local para un geom especifico.\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  ggplot2::geom_point(\n    mapping = ggplot2::aes(\n      color = species\n    )\n  ) + \n  ggplot2::geom_smooth(\n    method = \"lm\"\n  )"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-accesibilidad",
+    "href": "slides/intro-r/index.html#ggplot2-accesibilidad",
+    "title": "Introducción a R",
+    "section": "ggplot2 — accesibilidad",
+    "text": "ggplot2 — accesibilidad\nGeneralmente no es una buena idea representar información usando sólo colores, por lo cual podemos combinar con formas o usando paletas de colores apta para personas con limitaciones visuales.\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  ggplot2::geom_point(\n    mapping = ggplot2::aes(\n      color = species,\n      shape = species\n    )\n  ) + \n  ggplot2::geom_smooth(\n    method = \"lm\"\n  ) + \n  ggthemes::scale_color_colorblind()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-scales",
+    "href": "slides/intro-r/index.html#ggplot2-scales",
+    "title": "Introducción a R",
+    "section": "ggplot2 — scales",
+    "text": "ggplot2 — scales\nscales controlan cómo se traducen los datos a propiedades visuales. scales suelen formar parejas con aesthetics, y se representan en los gráficos mediante guías, como ejes o leyendas. ggplot2::labs() y ggplot2::lims() son para los ajustes más comunes de las etiquetas y los límites.\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  ggplot2::geom_point(\n    mapping = ggplot2::aes(\n      color = species,\n      shape = species\n    )\n  ) + \n  ggplot2::geom_smooth(\n    method = \"lm\"\n  ) + \n  ggplot2::labs(\n    title = \"Masa corporal y longitud de la aleta\",\n    subtitle = \"Dimensiones para los Pingüinos Adelie (Adelia), Chinstrap (Barbijo) y Gentoo (Papúa)\",\n    x = \"Longitud de la aleta (mm)\",\n    y = \"Masa corporal (g)\",\n    color = \"Especie\",\n    shape = \"Especie\"\n  ) + \n  ggthemes::scale_color_colorblind()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-theme",
+    "href": "slides/intro-r/index.html#ggplot2-theme",
+    "title": "Introducción a R",
+    "section": "ggplot2 — theme",
+    "text": "ggplot2 — theme\ntheme controla casi todos los elementos visuales del gráfico que no están controlados por los datos y es importante para el aspecto del gráfico. Puede utilizarse muchas de las funciones de theme_*( ).\n\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  ggplot2::geom_point(\n    mapping = ggplot2::aes(\n      color = species,\n      shape = species\n    )\n  ) + \n  ggplot2::geom_smooth(\n    method = \"lm\"\n  ) + \n  ggplot2::labs(\n    title = \"Masa corporal y longitud de la aleta\",\n    subtitle = \"Dimensiones para los Pingüinos Adelie (Adelia), Chinstrap (Barbijo) y Gentoo (Papúa)\",\n    x = \"Longitud de la aleta (mm)\",\n    y = \"Masa corporal (g)\",\n    color = \"Especies\",\n    shape = \"Especies\"\n  ) + \n  ggplot2::theme_minimal() +\n  ggthemes::scale_color_colorblind()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#ggplot2-invocanción",
+    "href": "slides/intro-r/index.html#ggplot2-invocanción",
+    "title": "Introducción a R",
+    "section": "ggplot2 — invocanción",
+    "text": "ggplot2 — invocanción\n\nMientras se aprende, es bueno ser explicito con los argumentos y los valores.\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins,\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  ggplot2::geom_point()\n\n\n\n\nEs común que se omita el nombre de los argumentos o que se adopten estilos o formas de escribir código.\n\nggplot2::ggplot(\n  palmerpenguins::penguins,\n  ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n) +\n  ggplot2::geom_point()\n\n\nLo anterior, en un flujo de trabajo usando |&gt; se vería así:\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = flipper_length_mm,\n      y = body_mass_g)\n  ) +\n  ggplot2::geom_point()\n\n\n\nUno de los estilos recomendables es la guía de estilo del tidyverse"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#una-variable-categórica",
+    "href": "slides/intro-r/index.html#una-variable-categórica",
+    "title": "Introducción a R",
+    "section": "Una variable categórica",
+    "text": "Una variable categórica\n\n\nUna variable es categórica si toma uno de varios valores limitados. Para analizar su distribución, se usa un gráfico de barras, donde la altura indica cuántas observaciones tiene cada valor.\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = species\n    )\n  ) +\n  ggplot2::geom_bar()\n\n\n\n\n\n\n\n\n\n\n\n\nEn gráficos de barras con categorías no ordenadas, es útil reordenar las barras por frecuencia. Se hace convirtiendo la variable en un factor y reordenando los niveles con forcats::fct_infreq().\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = forcats::fct_infreq(species)\n    )\n  ) +\n  ggplot2::geom_bar()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#una-variable-numérica",
+    "href": "slides/intro-r/index.html#una-variable-numérica",
+    "title": "Introducción a R",
+    "section": "Una variable numérica",
+    "text": "Una variable numérica\nUna variable es numérica (o cuantitativa) si puede tomar una amplia gama de valores numéricos y tiene sentido sumarlos, restarlos o calcular promedios con esos valores. Las variables numéricas pueden ser continuas o discretas. Una visualización comúnmente utilizada para distribuciones de variables continuas es un histograma.\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = body_mass_g\n    )\n  ) +\n  ggplot2::geom_histogram(\n    binwidth = 200\n  )"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#una-variable-numérica-1",
+    "href": "slides/intro-r/index.html#una-variable-numérica-1",
+    "title": "Introducción a R",
+    "section": "Una variable numérica",
+    "text": "Una variable numérica\nUn gráfico de densidad es una versión suavizada de un histograma y una alternativa práctica, especialmente para datos continuos que provienen de una distribución subyacente suave. Muestra menos detalles que un histograma, pero puede facilitar la comprensión rápida de la forma de la distribución, especialmente con respecto a la moda y la asimetría.\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = body_mass_g\n    )\n  ) +\n  ggplot2::geom_density()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#una-variable-numérica-y-categórica",
+    "href": "slides/intro-r/index.html#una-variable-numérica-y-categórica",
+    "title": "Introducción a R",
+    "section": "Una variable numérica y categórica",
+    "text": "Una variable numérica y categórica\nPara visualizar la relación entre una variable numérica y una variable categórica, podemos usar diagramas de caja (box plots). Un diagrama de caja es un tipo de representación visual para medidas de posición (percentiles) que describen una distribución. También es útil para identificar posibles valores atípicos.\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = species,\n      y = body_mass_g\n    )\n  ) +\n  ggplot2::geom_boxplot()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#una-variable-numérica-y-categórica-1",
+    "href": "slides/intro-r/index.html#una-variable-numérica-y-categórica-1",
+    "title": "Introducción a R",
+    "section": "Una variable numérica y categórica",
+    "text": "Una variable numérica y categórica\nAlternativamente, podemos hacer gráficos de densidad con ggplot2::geom_density().\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = body_mass_g,\n      color = species\n      \n    )\n  ) +\n  ggplot2::geom_density(\n    linewidth = 0.75\n  )\n\n\n\n\n\n\n\n\n\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = body_mass_g,\n      color = species,\n      fill = species\n    )\n  ) +\n  ggplot2::geom_density(\n    alpha = 0.5\n  )"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dos-variables-categóricas",
+    "href": "slides/intro-r/index.html#dos-variables-categóricas",
+    "title": "Introducción a R",
+    "section": "Dos variables categóricas",
+    "text": "Dos variables categóricas\nPodemos utilizar gráficos de barras apiladas para visualizar la relación entre dos variables categóricas.\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = island,\n      fill = species\n    )\n  ) +\n  ggplot2::geom_bar()\n\n\n\n\n\n\n\n\n\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = island,\n      fill = species\n    )\n  ) +\n  ggplot2::geom_bar(position = \"fill\")"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dos-variables-numéricas",
+    "href": "slides/intro-r/index.html#dos-variables-numéricas",
+    "title": "Introducción a R",
+    "section": "Dos variables numéricas",
+    "text": "Dos variables numéricas\nUn diagrama de dispersión es probablemente el gráfico más utilizado para visualizar la relación entre dos variables numéricas.\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = flipper_length_mm,\n      y = body_mass_g\n    )\n  ) +\n  ggplot2::geom_point(\n    ggplot2::aes(\n      color = species,\n      shape = island\n    )\n  )"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#tres-o-más-variables",
+    "href": "slides/intro-r/index.html#tres-o-más-variables",
+    "title": "Introducción a R",
+    "section": "Tres o más variables",
+    "text": "Tres o más variables\nEn ggplot2 podemos incorporar más variables en un gráfico asignándolas a estéticas adicionales. Agregar demasiadas asignaciones estéticas a un gráfico lo hace confuso y difícil de interpretar. Una forma particularmente útil para variables categóricas es dividir el gráfico en facets, subgráficos que muestran cada uno un subconjunto de los datos.\n\n\n\npalmerpenguins::penguins |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(\n      x = flipper_length_mm,\n      y = body_mass_g\n    )\n  ) +\n  ggplot2::geom_point(\n    ggplot2::aes(\n      color = species,\n      shape = species\n    )\n  ) + \n  ggplot2::facet_wrap(\n    ~island\n  )"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#problemas-comunes-con-ggplot2",
+    "href": "slides/intro-r/index.html#problemas-comunes-con-ggplot2",
+    "title": "Introducción a R",
+    "section": "Problemas comunes con ggplot2",
+    "text": "Problemas comunes con ggplot2\nUn problema común al crear gráficos con ggplot2 es colocar el + en el lugar incorrecto: debe ir al final de la línea, no al inicio.\n\n\n\nForma incorrecta\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins\n) \n+ ggplot2::geom_point(\n  mapping = ggplot2::aes(\n    x = flipper_length_mm,\n    y = body_mass_g\n  )\n)\n\n\n\nForma correcta:\n\nggplot2::ggplot(\n  data = palmerpenguins::penguins\n) + \n  ggplot2::geom_point(\n    mapping = ggplot2::aes(\n      x = flipper_length_mm,\n      y = body_mass_g\n    )\n  )"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#resumen-de-ggplot2",
+    "href": "slides/intro-r/index.html#resumen-de-ggplot2",
+    "title": "Introducción a R",
+    "section": "Resumen de ggplot2",
+    "text": "Resumen de ggplot2\n\n\nAsignación global\n\nDATA |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(MAPPINGS)\n  ) + \n  ggplot2::geom_*()\n\n\n\n\nAsignación local\n\nDATA |&gt; \n  ggplot2::ggplot(\n    ggplot2::aes(MAPPINGS)\n  ) + \n  ggplot2::geom_*(ggplot2::aes(MAPPINGS))"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#tidyverse-y-la-ciencia-de-datos-1",
+    "href": "slides/intro-r/index.html#tidyverse-y-la-ciencia-de-datos-1",
+    "title": "Introducción a R",
+    "section": "Tidyverse y la ciencia de datos",
+    "text": "Tidyverse y la ciencia de datos\n\nEl Tidyverse tiene multipes paquetes que nos ayudaran durante todo el proceso de analizar los datos. Tomado de Çetinkaya-Rundel (2023)."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr",
+    "href": "slides/intro-r/index.html#dplyr",
+    "title": "Introducción a R",
+    "section": "dplyr",
+    "text": "dplyr\n\n\ndplyr es una gramática de transformación de datos que proporciona un conjunto consistente de verbos (funciones) que ayudan a resolver los desafíos de manipulación de datos más comunes.\n\n\n\n\n\n\nTodas las funciones tienen estás características en común:\n\nEl primer argumento es siempre un data frame.\nLos argumentos siguientes suelen describir las columnas sobre las que se va a operar utilizando los nombres de las variables (sin comillas).\nLa salida es siempre un nuevo data frame.\n\n\n\nLos verbos de dplyr están organizados en cuatro grupos basados en lo que operan:\n\n\nFilas\n\narrange()\ndistinct()\nfilter()\nslice_*()\n\n\nColumnas\n\nmutate()\nrelocate()\nrename()\nselect()\n\n\nGrupos\n\ncount()\ngroup_by()\nsummarise()\n\n\nData frames\n\n*_join()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-filas-arrange",
+    "href": "slides/intro-r/index.html#dplyr-filas-arrange",
+    "title": "Introducción a R",
+    "section": "dplyr — filas: arrange()",
+    "text": "dplyr — filas: arrange()\n\narrange() Ordena las filas utilizando los valores de las columnas\n\npalmerpenguins::penguins |&gt; \n  dplyr::arrange(island)\n\n\n\n# A tibble: 344 × 8\n   species island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Biscoe           37.8          18.3               174        3400\n 2 Adelie  Biscoe           37.7          18.7               180        3600\n 3 Adelie  Biscoe           35.9          19.2               189        3800\n 4 Adelie  Biscoe           38.2          18.1               185        3950\n 5 Adelie  Biscoe           38.8          17.2               180        3800\n 6 Adelie  Biscoe           35.3          18.9               187        3800\n 7 Adelie  Biscoe           40.6          18.6               183        3550\n 8 Adelie  Biscoe           40.5          17.9               187        3200\n 9 Adelie  Biscoe           37.9          18.6               172        3150\n10 Adelie  Biscoe           40.5          18.9               180        3950\n# ℹ 334 more rows\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;\n\n\n\n\nPara ordenar de mayor a menor se ha de usar dplyr::desc() dentro de dplyr::arrange().\n\npalmerpenguins::penguins |&gt; \n  dplyr::arrange(dplyr::desc(island))\n\n\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750\n 2 Adelie  Torgersen           39.5          17.4               186        3800\n 3 Adelie  Torgersen           40.3          18                 195        3250\n 4 Adelie  Torgersen           NA            NA                  NA          NA\n 5 Adelie  Torgersen           36.7          19.3               193        3450\n 6 Adelie  Torgersen           39.3          20.6               190        3650\n 7 Adelie  Torgersen           38.9          17.8               181        3625\n 8 Adelie  Torgersen           39.2          19.6               195        4675\n 9 Adelie  Torgersen           34.1          18.1               193        3475\n10 Adelie  Torgersen           42            20.2               190        4250\n# ℹ 334 more rows\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-filas-distinct",
+    "href": "slides/intro-r/index.html#dplyr-filas-distinct",
+    "title": "Introducción a R",
+    "section": "dplyr — filas: distinct()",
+    "text": "dplyr — filas: distinct()\n\ndistinct() Mantiene filas distintas/únicas\n\npalmerpenguins::penguins |&gt; \n  dplyr::distinct(island)\n\n\n\n# A tibble: 3 × 1\n  island   \n  &lt;fct&gt;    \n1 Torgersen\n2 Biscoe   \n3 Dream"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-filas-filter",
+    "href": "slides/intro-r/index.html#dplyr-filas-filter",
+    "title": "Introducción a R",
+    "section": "dplyr — filas: filter()",
+    "text": "dplyr — filas: filter()\n\nfilter() Mantiene las filas que cumplen una condición\n\npalmerpenguins::penguins |&gt; \n  dplyr::filter(island == \"Dream\")\n\n\n\n# A tibble: 124 × 8\n   species island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Dream            39.5          16.7               178        3250\n 2 Adelie  Dream            37.2          18.1               178        3900\n 3 Adelie  Dream            39.5          17.8               188        3300\n 4 Adelie  Dream            40.9          18.9               184        3900\n 5 Adelie  Dream            36.4          17                 195        3325\n 6 Adelie  Dream            39.2          21.1               196        4150\n 7 Adelie  Dream            38.8          20                 190        3950\n 8 Adelie  Dream            42.2          18.5               180        3550\n 9 Adelie  Dream            37.6          19.3               181        3300\n10 Adelie  Dream            39.8          19.1               184        4650\n# ℹ 114 more rows\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;\n\n\n\n\nHay muchas funciones y operadores que resultan útiles a la hora de construir las expresiones utilizadas para filtrar los datos:\n\nOperadores de comparación (==, !=, &gt;, &lt;, &gt;=, &lt;=)\nOperadores lógicos (|, &, !)\nbase::is.na()\ndplyr::between(), dplyr::near()"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-filas-slice_",
+    "href": "slides/intro-r/index.html#dplyr-filas-slice_",
+    "title": "Introducción a R",
+    "section": "dplyr — filas: slice_()*",
+    "text": "dplyr — filas: slice_()*\n\nslice_()* Subconjunto de filas utilizando sus posiciones\n\npalmerpenguins::penguins |&gt; \n  dplyr::slice_min(body_mass_g, n = 5)\n\n\n\n# A tibble: 7 × 8\n  species   island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n  &lt;fct&gt;     &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n1 Chinstrap Dream               46.9          16.6               192        2700\n2 Adelie    Biscoe              36.5          16.6               181        2850\n3 Adelie    Biscoe              36.4          17.1               184        2850\n4 Adelie    Biscoe              34.5          18.1               187        2900\n5 Adelie    Dream               33.1          16.1               178        2900\n6 Adelie    Torgersen           38.6          17                 188        2900\n7 Chinstrap Dream               43.2          16.6               187        2900\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;\n\n\n\n\nPodemos encontrar varias funciones: dplyr::slice(), dplyr::slice_head(), dplyr::slice_tail(), dplyr::slice_min(), dplyr::slice_max(), dplyr::slice_sample()."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-filas-ejemplo",
+    "href": "slides/intro-r/index.html#dplyr-filas-ejemplo",
+    "title": "Introducción a R",
+    "section": "dplyr — filas: ejemplo",
+    "text": "dplyr — filas: ejemplo\n\npalmerpenguins::penguins |&gt;\n  dplyr::filter(\n    species == \"Chinstrap\"\n  ) |&gt; \n  dplyr::slice_max(\n    body_mass_g,\n    n = 5\n  ) |&gt; \n  dplyr::arrange(\n    bill_length_mm\n  ) |&gt; \n  dplyr::distinct(\n    flipper_length_mm,\n    .keep_all = TRUE\n  )\n\n\n\n# A tibble: 4 × 8\n  species   island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n  &lt;fct&gt;     &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n1 Chinstrap Dream            49.2          18.2               195        4400\n2 Chinstrap Dream            50.8          18.5               201        4450\n3 Chinstrap Dream            52            20.7               210        4800\n4 Chinstrap Dream            52.8          20                 205        4550\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-columnas-mutate",
+    "href": "slides/intro-r/index.html#dplyr-columnas-mutate",
+    "title": "Introducción a R",
+    "section": "dplyr — columnas: mutate()",
+    "text": "dplyr — columnas: mutate()\n\nmutate() Crear, modificar y eliminar columnas\n\npalmerpenguins::penguins |&gt; \n  dplyr::mutate(\n    volume = (pi * bill_depth_mm * bill_length_mm) / 3,\n    .after = bill_depth_mm\n  )\n\n\n\n# A tibble: 344 × 9\n   species island    bill_length_mm bill_depth_mm volume flipper_length_mm\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;  &lt;dbl&gt;             &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7   766.               181\n 2 Adelie  Torgersen           39.5          17.4   720.               186\n 3 Adelie  Torgersen           40.3          18     760.               195\n 4 Adelie  Torgersen           NA            NA      NA                 NA\n 5 Adelie  Torgersen           36.7          19.3   742.               193\n 6 Adelie  Torgersen           39.3          20.6   848.               190\n 7 Adelie  Torgersen           38.9          17.8   725.               181\n 8 Adelie  Torgersen           39.2          19.6   805.               195\n 9 Adelie  Torgersen           34.1          18.1   646.               193\n10 Adelie  Torgersen           42            20.2   888.               190\n# ℹ 334 more rows\n# ℹ 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;, year &lt;int&gt;\n\n\n\n\nHay muchas funciones que pueden ser usadas, ?dplyr::mutate() para ver un listado de ellas."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-columnas-pull",
+    "href": "slides/intro-r/index.html#dplyr-columnas-pull",
+    "title": "Introducción a R",
+    "section": "dplyr — columnas: pull()",
+    "text": "dplyr — columnas: pull()\n\npull() Extraer una sola columna\n\npalmerpenguins::penguins |&gt; \n  dplyr::pull(species)\n\n\n\n  [1] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n  [8] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [15] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [22] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [29] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [36] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [43] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [50] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [57] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [64] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [71] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [78] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [85] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [92] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n [99] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n[106] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n[113] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n[120] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n[127] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n[134] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n[141] Adelie    Adelie    Adelie    Adelie    Adelie    Adelie    Adelie   \n[148] Adelie    Adelie    Adelie    Adelie    Adelie    Gentoo    Gentoo   \n[155] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[162] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[169] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[176] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[183] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[190] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[197] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[204] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[211] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[218] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[225] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[232] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[239] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[246] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[253] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[260] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[267] Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo    Gentoo   \n[274] Gentoo    Gentoo    Gentoo    Chinstrap Chinstrap Chinstrap Chinstrap\n[281] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[288] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[295] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[302] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[309] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[316] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[323] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[330] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[337] Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap Chinstrap\n[344] Chinstrap\nLevels: Adelie Chinstrap Gentoo"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-columnas-relocate",
+    "href": "slides/intro-r/index.html#dplyr-columnas-relocate",
+    "title": "Introducción a R",
+    "section": "dplyr — columnas: relocate()",
+    "text": "dplyr — columnas: relocate()\n\nrelocate() Cambiar el orden de las columnas\n\npalmerpenguins::penguins |&gt; \n  dplyr::relocate(\n    year,\n    sex\n  )\n\n\n\n# A tibble: 344 × 8\n    year sex    species island    bill_length_mm bill_depth_mm flipper_length_mm\n   &lt;int&gt; &lt;fct&gt;  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;\n 1  2007 male   Adelie  Torgersen           39.1          18.7               181\n 2  2007 female Adelie  Torgersen           39.5          17.4               186\n 3  2007 female Adelie  Torgersen           40.3          18                 195\n 4  2007 &lt;NA&gt;   Adelie  Torgersen           NA            NA                  NA\n 5  2007 female Adelie  Torgersen           36.7          19.3               193\n 6  2007 male   Adelie  Torgersen           39.3          20.6               190\n 7  2007 female Adelie  Torgersen           38.9          17.8               181\n 8  2007 male   Adelie  Torgersen           39.2          19.6               195\n 9  2007 &lt;NA&gt;   Adelie  Torgersen           34.1          18.1               193\n10  2007 &lt;NA&gt;   Adelie  Torgersen           42            20.2               190\n# ℹ 334 more rows\n# ℹ 1 more variable: body_mass_g &lt;int&gt;\n\n\n\n\ndplyr::relocate() tiene dos argumentos muy útiles .before y .after."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-columnas-rename",
+    "href": "slides/intro-r/index.html#dplyr-columnas-rename",
+    "title": "Introducción a R",
+    "section": "dplyr — columnas: rename()",
+    "text": "dplyr — columnas: rename()\n\nrename() Renombrar columnas\n\npalmerpenguins::penguins |&gt; \n  dplyr::rename(\n    Pygoscelis = species\n  )\n\n\n\n# A tibble: 344 × 8\n   Pygoscelis island  bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;      &lt;fct&gt;            &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie     Torger…           39.1          18.7               181        3750\n 2 Adelie     Torger…           39.5          17.4               186        3800\n 3 Adelie     Torger…           40.3          18                 195        3250\n 4 Adelie     Torger…           NA            NA                  NA          NA\n 5 Adelie     Torger…           36.7          19.3               193        3450\n 6 Adelie     Torger…           39.3          20.6               190        3650\n 7 Adelie     Torger…           38.9          17.8               181        3625\n 8 Adelie     Torger…           39.2          19.6               195        4675\n 9 Adelie     Torger…           34.1          18.1               193        3475\n10 Adelie     Torger…           42            20.2               190        4250\n# ℹ 334 more rows\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;\n\n\n\n\nLa sintaxis siempre es nuevo_nombre = viejo_nombre.\nrename_with() renombra columnas utilizando una función.\nSi se tiene un montón de columnas con nombres inconsistentes y sería complicado corregirlas todas manualmente, consulte janitor::clean_names()."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-columnas-select",
+    "href": "slides/intro-r/index.html#dplyr-columnas-select",
+    "title": "Introducción a R",
+    "section": "dplyr — columnas: select()",
+    "text": "dplyr — columnas: select()\n\nselect() Mantener o eliminar columnas utilizando sus nombres y tipos\n\npalmerpenguins::penguins |&gt; \n  dplyr::select(\n    species,\n    sex\n  )\n\n\n\n# A tibble: 344 × 2\n   species sex   \n   &lt;fct&gt;   &lt;fct&gt; \n 1 Adelie  male  \n 2 Adelie  female\n 3 Adelie  female\n 4 Adelie  &lt;NA&gt;  \n 5 Adelie  female\n 6 Adelie  male  \n 7 Adelie  female\n 8 Adelie  male  \n 9 Adelie  &lt;NA&gt;  \n10 Adelie  &lt;NA&gt;  \n# ℹ 334 more rows\n\n\n\n\nLas selecciones del Tidyverse implementan un dialecto de R en el que los operadores facilitan la selección de variables: : selecciona un rango de variables consecutivas. ! toma el complemento de un conjunto de variables. & y | selecciona la intersección o la unión de dos conjuntos de variables. c() para combinar selecciones.\nAdemás, puede utilizar ayudantes de selección. ?dplyr::select() para ver el listado completo."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-columnas-ejemplo",
+    "href": "slides/intro-r/index.html#dplyr-columnas-ejemplo",
+    "title": "Introducción a R",
+    "section": "dplyr — columnas: ejemplo",
+    "text": "dplyr — columnas: ejemplo\n\npalmerpenguins::penguins |&gt; \n  dplyr::rename(\n    pygoscelis = species\n  ) |&gt; \n  dplyr::mutate(\n    volume = (pi * bill_depth_mm * bill_length_mm) / 3,\n  ) |&gt; \n  dplyr::select(\n    pygoscelis,\n    volume,\n    body_mass_g:sex\n  )\n\n\n\n# A tibble: 344 × 4\n   pygoscelis volume body_mass_g sex   \n   &lt;fct&gt;       &lt;dbl&gt;       &lt;int&gt; &lt;fct&gt; \n 1 Adelie       766.        3750 male  \n 2 Adelie       720.        3800 female\n 3 Adelie       760.        3250 female\n 4 Adelie        NA           NA &lt;NA&gt;  \n 5 Adelie       742.        3450 female\n 6 Adelie       848.        3650 male  \n 7 Adelie       725.        3625 female\n 8 Adelie       805.        4675 male  \n 9 Adelie       646.        3475 &lt;NA&gt;  \n10 Adelie       888.        4250 &lt;NA&gt;  \n# ℹ 334 more rows"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-grupos-count",
+    "href": "slides/intro-r/index.html#dplyr-grupos-count",
+    "title": "Introducción a R",
+    "section": "dplyr — grupos: count()",
+    "text": "dplyr — grupos: count()\n\ncount() Contar las observaciones de cada grupo\n\npalmerpenguins::penguins |&gt; \n  dplyr::count(\n    species,\n    island\n  )\n\n\n\n# A tibble: 5 × 3\n  species   island        n\n  &lt;fct&gt;     &lt;fct&gt;     &lt;int&gt;\n1 Adelie    Biscoe       44\n2 Adelie    Dream        56\n3 Adelie    Torgersen    52\n4 Chinstrap Dream        68\n5 Gentoo    Biscoe      124\n\n\n\n\nAl utilizar sort = TRUE como argumento, se mostrará los grupos más grandes en la parte superior.\ndplyr::add_count() y dplyr::add_tally() son equivalentes a dplyr::count() y dplyr::tally() pero utilizan dplyr::mutate() en lugar de dplyr::summarise() para añadir una nueva columna con recuentos por grupos."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-grupos-group_by",
+    "href": "slides/intro-r/index.html#dplyr-grupos-group_by",
+    "title": "Introducción a R",
+    "section": "dplyr — grupos: group_by()",
+    "text": "dplyr — grupos: group_by()\n\ngroup_by() Agrupar por una o varias variables\n\npalmerpenguins::penguins |&gt; \n  dplyr::group_by(\n    species,\n    island\n  )\n\n\n\n# A tibble: 344 × 8\n# Groups:   species, island [5]\n   species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181        3750\n 2 Adelie  Torgersen           39.5          17.4               186        3800\n 3 Adelie  Torgersen           40.3          18                 195        3250\n 4 Adelie  Torgersen           NA            NA                  NA          NA\n 5 Adelie  Torgersen           36.7          19.3               193        3450\n 6 Adelie  Torgersen           39.3          20.6               190        3650\n 7 Adelie  Torgersen           38.9          17.8               181        3625\n 8 Adelie  Torgersen           39.2          19.6               195        4675\n 9 Adelie  Torgersen           34.1          18.1               193        3475\n10 Adelie  Torgersen           42            20.2               190        4250\n# ℹ 334 more rows\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;\n\n\n\n\ndplyr::group_by() no cambia los datos pero, si observa detenidamente la salida, se dará cuenta de que la salida indica que está «agrupada por» (Groups: species, island [5]). Esto significa que las operaciones posteriores funcionarán ahora por grupo. Por lo cual es recomendable usar dplyr::ungroup() cuando sea necesario."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-grupos-summarise",
+    "href": "slides/intro-r/index.html#dplyr-grupos-summarise",
+    "title": "Introducción a R",
+    "section": "dplyr — grupos: summarise()",
+    "text": "dplyr — grupos: summarise()\n\nsummarise() Resumir cada grupo en una fila\n\npalmerpenguins::penguins |&gt; \n  dplyr::group_by(\n    species,\n    island\n  ) |&gt; \n  dplyr::summarise(\n    n = dplyr::n()\n  )\n\n\n\n# A tibble: 5 × 3\n# Groups:   species [3]\n  species   island        n\n  &lt;fct&gt;     &lt;fct&gt;     &lt;int&gt;\n1 Adelie    Biscoe       44\n2 Adelie    Dream        56\n3 Adelie    Torgersen    52\n4 Chinstrap Dream        68\n5 Gentoo    Biscoe      124\n\n\n\n\nLa operación de agrupamiento más importante. Reduce el data frame para que tenga una sola fila para cada grupo. dplyr::summarise() y dplyr::summarize() son sinónimos.\nFunciones útiles: centrales (base::mean(), base::median()), dispersión (base::sd(), base::IQR(), base::mad()), rango (base::min(), base::max()), posición (dplyr::first(), dplyr::last(), dplyr::nth()), recuento (dplyr::n(), dplyr::n_distinto()), lógicas (dplyr::any(), dplyr::all())."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-grupos-ejemplo",
+    "href": "slides/intro-r/index.html#dplyr-grupos-ejemplo",
+    "title": "Introducción a R",
+    "section": "dplyr — grupos: ejemplo",
+    "text": "dplyr — grupos: ejemplo\n\npalmerpenguins::penguins |&gt; \n  dplyr::group_by(\n    species,\n    island,\n    sex\n  ) |&gt; \n  dplyr::summarise(\n    mean_body_mass_g = base::mean(body_mass_g, na.rm = TRUE),\n    n = dplyr::n()\n  )\n\n\n\n# A tibble: 13 × 5\n# Groups:   species, island [5]\n   species   island    sex    mean_body_mass_g     n\n   &lt;fct&gt;     &lt;fct&gt;     &lt;fct&gt;             &lt;dbl&gt; &lt;int&gt;\n 1 Adelie    Biscoe    female            3369.    22\n 2 Adelie    Biscoe    male              4050     22\n 3 Adelie    Dream     female            3344.    27\n 4 Adelie    Dream     male              4046.    28\n 5 Adelie    Dream     &lt;NA&gt;              2975      1\n 6 Adelie    Torgersen female            3396.    24\n 7 Adelie    Torgersen male              4035.    23\n 8 Adelie    Torgersen &lt;NA&gt;              3681.     5\n 9 Chinstrap Dream     female            3527.    34\n10 Chinstrap Dream     male              3939.    34\n11 Gentoo    Biscoe    female            4680.    58\n12 Gentoo    Biscoe    male              5485.    61\n13 Gentoo    Biscoe    &lt;NA&gt;              4588.     5"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#dplyr-data-frames",
+    "href": "slides/intro-r/index.html#dplyr-data-frames",
+    "title": "Introducción a R",
+    "section": "dplyr — data frames",
+    "text": "dplyr — data frames\n\n\n\nLas uniones de transformación (mutating joins) agregan nuevas variables a un data frame a partir de las observaciones coincidentes en otra tabla. Hay cuatro uniones de transformación: la unión interior (inner join) y las tres uniones exteriores (outer joins).\n\n\nLas uniones de filtro (filtering joins) filtran observaciones en un data frame con base en si coinciden o no con una observación de otra tabla.\nLas operaciones de conjuntos (set operations) que tratan las observaciones como elementos de un conjunto.\n\n\n\n\n\nTomado de Choueiry (2024)."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#tidyverse-y-la-ciencia-de-datos-2",
+    "href": "slides/intro-r/index.html#tidyverse-y-la-ciencia-de-datos-2",
+    "title": "Introducción a R",
+    "section": "Tidyverse y la ciencia de datos",
+    "text": "Tidyverse y la ciencia de datos\n\nEl Tidyverse tiene multipes paquetes que nos ayudaran durante todo el proceso de analizar los datos. Tomado de Çetinkaya-Rundel (2023)."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#importando-los-datos",
+    "href": "slides/intro-r/index.html#importando-los-datos",
+    "title": "Introducción a R",
+    "section": "Importando los datos",
+    "text": "Importando los datos\nHay varias maneras de importar los datos. Todo depende del formato en que estos se encuentren, aunque lo ideal es siempre tenerlos en formatos de texto plano: .csv, .tsv, txt.\n\n\n\nTexto plano\n\n\n\n\n\nHay varias funciones: reardr::read_csv(), reardr::read_tsv(), reardr::read_csv2(), reardr::read_delim().\n\nreardr::read_csv(\n  \"ruta/al/archivo/archivo.csv\"\n)\n\n\n\nExcel\n\n\n\n\n\nHay varias funciones: readxl::()read_excel, readxl::()read_xls, readxl::()read_xlsx.\n\nreadxl::read_excel(\n  \"ruta/al/archivo/archivo.xlsx\"\n)"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#tablas",
+    "href": "slides/intro-r/index.html#tablas",
+    "title": "Introducción a R",
+    "section": "Tablas",
+    "text": "Tablas\nHay varios paquetes para realizar tablas en R. Cada uno con enfoques, curvas de aprendizaje y formatos de salida diferentes. Una forma de agruparlos es si producen tablas estáticas o tablas dinámicas.\n\n\n2024 Table Contest"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#organizando-los-datos",
+    "href": "slides/intro-r/index.html#organizando-los-datos",
+    "title": "Introducción a R",
+    "section": "Organizando los datos",
+    "text": "Organizando los datos\nLa idea de una tabla es que sea informativa y legible, por lo cual es recomendable hacer una buena selección de los datos.\n\n\n\npenguins_resumen &lt;- \n  palmerpenguins::penguins |&gt; \n  dplyr::count(\n    species,\n    island,\n    sex\n  ) |&gt; \n  dplyr::group_by(\n    species,\n    island\n  ) |&gt; \n  dplyr::mutate(\n    percentage = n / sum(n) * 100\n  ) |&gt; \n  dplyr::ungroup()\n\npenguins_resumen\n\n\n# A tibble: 13 × 5\n   species   island    sex        n percentage\n   &lt;fct&gt;     &lt;fct&gt;     &lt;fct&gt;  &lt;int&gt;      &lt;dbl&gt;\n 1 Adelie    Biscoe    female    22      50   \n 2 Adelie    Biscoe    male      22      50   \n 3 Adelie    Dream     female    27      48.2 \n 4 Adelie    Dream     male      28      50   \n 5 Adelie    Dream     &lt;NA&gt;       1       1.79\n 6 Adelie    Torgersen female    24      46.2 \n 7 Adelie    Torgersen male      23      44.2 \n 8 Adelie    Torgersen &lt;NA&gt;       5       9.62\n 9 Chinstrap Dream     female    34      50   \n10 Chinstrap Dream     male      34      50   \n11 Gentoo    Biscoe    female    58      46.8 \n12 Gentoo    Biscoe    male      61      49.2 \n13 Gentoo    Biscoe    &lt;NA&gt;       5       4.03"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#knitrkable",
+    "href": "slides/intro-r/index.html#knitrkable",
+    "title": "Introducción a R",
+    "section": "knitr::kable()",
+    "text": "knitr::kable()\nkable() es un generador de tablas muy simple, y es simple por diseño. Sólo genera tablas para datos estrictamente rectangulares. No puede formatear mucho las celdas de la tabla ni combinar celdas. Algunas de las limitaciones de knitr::kable() pueden ser subsanadas utilizando el paquete kableExtra.\n\n\n\npenguins_resumen |&gt; \n  dplyr::mutate(\n    species = base::paste0(\n      \"*\", species, \"*\"\n    ),\n    sex = dplyr::case_match(\n      sex,\n      \"female\" ~ \"Hembra\",\n      \"male\" ~ \"Macho\",\n      .default = sex\n    )\n  ) |&gt; \n  knitr::kable(\n    col.names = c(\n      \"Especie\", \"Isla\", \"Sexo\", \"n\", \"Porcentaje (%)\"\n    ),\n    digits = c(2)\n  )\n\n\n\n\n\nEspecie\nIsla\nSexo\nn\nPorcentaje (%)\n\n\n\n\nAdelie\nBiscoe\nHembra\n22\n50.00\n\n\nAdelie\nBiscoe\nMacho\n22\n50.00\n\n\nAdelie\nDream\nHembra\n27\n48.21\n\n\nAdelie\nDream\nMacho\n28\n50.00\n\n\nAdelie\nDream\nNA\n1\n1.79\n\n\nAdelie\nTorgersen\nHembra\n24\n46.15\n\n\nAdelie\nTorgersen\nMacho\n23\n44.23\n\n\nAdelie\nTorgersen\nNA\n5\n9.62\n\n\nChinstrap\nDream\nHembra\n34\n50.00\n\n\nChinstrap\nDream\nMacho\n34\n50.00\n\n\nGentoo\nBiscoe\nHembra\n58\n46.77\n\n\nGentoo\nBiscoe\nMacho\n61\n49.19\n\n\nGentoo\nBiscoe\nNA\n5\n4.03"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#gt",
+    "href": "slides/intro-r/index.html#gt",
+    "title": "Introducción a R",
+    "section": "gt",
+    "text": "gt\ngt permite construir una amplia variedad de tablas útiles con un conjunto cohesivo de partes de tabla."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#gt-ejemplo",
+    "href": "slides/intro-r/index.html#gt-ejemplo",
+    "title": "Introducción a R",
+    "section": "gt — ejemplo",
+    "text": "gt — ejemplo\n\n\npenguins_resumen |&gt; \n  gt::gt() |&gt;\n  gt::tab_style(\n    style = gt::cell_text(\n      style = \"italic\"\n    ),\n    locations = gt::cells_body(\n      columns = species,\n    )\n  ) |&gt; \n  gt::sub_values(\n    value = \"female\",\n    replacement = \"Hembra\"\n  ) |&gt; \n  gt::sub_values(\n    value = \"male\",\n    replacement = \"Macno\"\n  ) |&gt;\n  gt::cols_label(\n    species = \"Especie\", \n    island = \"Isla\", \n    sex = \"Sexo\", \n    n = \"n\", \n    percentage = \"Porcentaje (%)\"\n  ) |&gt; \n  gt::fmt_number(\n    columns = \"percentage\",\n    decimals = 2\n  ) |&gt; \n  gt::opt_stylize(style = 1)\n\n\n\n\n\n\n\n\nEspecie\nIsla\nSexo\nn\nPorcentaje (%)\n\n\n\n\nAdelie\nBiscoe\nHembra\n22\n50.00\n\n\nAdelie\nBiscoe\nMacno\n22\n50.00\n\n\nAdelie\nDream\nHembra\n27\n48.21\n\n\nAdelie\nDream\nMacno\n28\n50.00\n\n\nAdelie\nDream\nNA\n1\n1.79\n\n\nAdelie\nTorgersen\nHembra\n24\n46.15\n\n\nAdelie\nTorgersen\nMacno\n23\n44.23\n\n\nAdelie\nTorgersen\nNA\n5\n9.62\n\n\nChinstrap\nDream\nHembra\n34\n50.00\n\n\nChinstrap\nDream\nMacno\n34\n50.00\n\n\nGentoo\nBiscoe\nHembra\n58\n46.77\n\n\nGentoo\nBiscoe\nMacno\n61\n49.19\n\n\nGentoo\nBiscoe\nNA\n5\n4.03"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#flextable",
+    "href": "slides/intro-r/index.html#flextable",
+    "title": "Introducción a R",
+    "section": "flextable",
+    "text": "flextable\nflextable proporciona un marco para crear fácilmente tablas para informes y publicaciones. Un objeto flextable es una representación data.frame compuesto por tres partes (header, body, footer). El paquete proporciona funciones que permiten controlar estas tres partes y texto, párrafos, celdas,formato de borde de cualquier elemento y valores mostrados."
+  },
+  {
+    "objectID": "slides/intro-r/index.html#flextable-ejemplo",
+    "href": "slides/intro-r/index.html#flextable-ejemplo",
+    "title": "Introducción a R",
+    "section": "flextable — ejemplo",
+    "text": "flextable — ejemplo\n\n\npenguins_resumen |&gt; \n  flextable::flextable() |&gt; \n  flextable::mk_par(\n    j = \"species\",\n    value = flextable::as_paragraph(flextable::as_i(species)),\n  ) |&gt;\n  flextable::mk_par(\n    i = ~ sex == \"female\",\n    j = \"sex\",\n    value = flextable::as_paragraph(\"Hembra\")\n  ) |&gt; \n  flextable::mk_par(\n    i = ~ sex == \"male\",\n    j = \"sex\",\n    value = flextable::as_paragraph(\"Macho\")\n  ) |&gt; \n  flextable::set_header_labels(\n    species = \"Especie\",\n    island = \"Isla\",\n    sex = \"Sexo\",\n    percentage = \"Porcentaje (%)\"\n  ) |&gt; \n  flextable::merge_v(\n    j = c(\"species\", \"island\")\n  ) |&gt; \n  flextable::colformat_char(\n    j = \"sex\",\n    na_str = \"NA\",\n  ) |&gt; \n  flextable::theme_apa() |&gt; \n  flextable::autofit()\n\n\nEspecieIslaSexonPorcentaje (%)AdelieBiscoefemale2250.00male2250.00Dreamfemale2748.21male2850.00NA11.79Torgersenfemale2446.15male2344.23NA59.62ChinstrapDreamfemale3450.00male3450.00GentooBiscoefemale5846.77male6149.19NA54.03"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#recursos",
+    "href": "slides/intro-r/index.html#recursos",
+    "title": "Introducción a R",
+    "section": "Recursos",
+    "text": "Recursos\n\n1 dataset. 100 visualizations\nCleaning Biodiversity Data in R\nData Viz Project\nFrom Data to Viz\nggplot2: Elegant Graphics for Data Analysis (3e)\ngt\nHands-On Programming with R\nR Cookbook, 2nd Edition\nR for Data Science (2e)\nR for Plant Disease Epidemiology\nR Graphics Cookbook, 2nd edition\nThe R Graph Gallery\nTidyverse\nUsing the flextable R package"
+  },
+  {
+    "objectID": "slides/intro-r/index.html#referencias",
+    "href": "slides/intro-r/index.html#referencias",
+    "title": "Introducción a R",
+    "section": "Referencias",
+    "text": "Referencias\n\n\n\n\nInvestigación Reproducible con Quarto\n\n\n\n\nÇetinkaya-Rundel, M. (2023). Teaching the tidyverse in 2023. https://www.tidyverse.org/blog/2023/08/teach-tidyverse-23/\n\n\nChoueiry, G. (2024). Join Dataframes in R: Left/Right/Inner/Full Joins. https://quantifyinghealth.com/join-dataframes-in-r-left-right-inner-full-joins/\n\n\nGiorgi, F. M., Ceraolo, C., & Mercatelli, D. (2022). The R Language: An Engine for Bioinformatics and Data Science. Life, 12(5), 648. https://doi.org/10.3390/life12050648\n\n\nHorst, A. M., Hill, A. P., & Gorman, K. B. (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. https://doi.org/10.5281/zenodo.3960218\n\n\nR Core Team. (2024). R: A Language and Environment for Statistical Computing. R Foundation for Statistical Computing. https://www.R-project.org/\n\n\nWickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10). https://doi.org/10.18637/jss.v059.i10\n\n\nWickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T., Miller, E., Bache, S., Müller, K., Ooms, J., Robinson, D., Seidel, D., Spinu, V., … Yutani, H. (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), 1686. https://doi.org/10.21105/joss.01686\n\n\nWickham, H., & Bryan, J. (2023). R packages: organize, test, document, and share your code (Second edition). O’Reilly.\n\n\nWickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science: import, tidy, transform, visualize, and model data (2nd edition). O’Reilly. https://r4ds.hadley.nz"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#proposito",
+    "href": "slides/ciencia-abierta/index.html#proposito",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Proposito",
+    "text": "Proposito\n\nMostrar la importancia de la reproducibilidad en la ciencia"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#estamos-en-crisis",
+    "href": "slides/ciencia-abierta/index.html#estamos-en-crisis",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "¿Estamos en crisis?",
+    "text": "¿Estamos en crisis?\n\n\n\n\n\nRespuesta de 1576 cientificos a ¿existe una crisis de reproducibilidad? Baker (2016)\n\n\n\n\n\n\n\nRegistros de WoS que en el título, resumen o palabras clave contienen: «crisis de reproducibilidad», «crisis científica», «ciencia en crisis», «crisis en la ciencia», «crisis de replicación», o «crisis de replicabilidad». Fanelli (2018)\n\n\n\n\n\n\n\n246 biólogo obtiene 246 resultados diferentes. Oza (2023)"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#alguien-por-favor-quiere-pensar-en-los-biólogos",
+    "href": "slides/ciencia-abierta/index.html#alguien-por-favor-quiere-pensar-en-los-biólogos",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "¿Alguien por favor quiere pensar en los biólogos?",
+    "text": "¿Alguien por favor quiere pensar en los biólogos?\n\n¿Cuántos trabajos publicados en su campo son reproducibles? Baker (2016)"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#why-why-oh-thats-why",
+    "href": "slides/ciencia-abierta/index.html#why-why-oh-thats-why",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "“Why? Why? Oh, that’s why”",
+    "text": "“Why? Why? Oh, that’s why”\n\n¿Ha fracasado al reproducir un experimento? ¿Qué factores contribuyen a que una investigación sea irreproducible? Baker (2016)"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#alguien-tiene-que-hacer-algo-por-favor",
+    "href": "slides/ciencia-abierta/index.html#alguien-tiene-que-hacer-algo-por-favor",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "«Alguien tiene que hacer algo, por favor»",
+    "text": "«Alguien tiene que hacer algo, por favor»\n\n¿Alguna vez has intentado publicar un intento de reproducción? ¿Ha establecido procedimientos de reproducibilidad? Baker (2016)"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#necesitamos-cambios",
+    "href": "slides/ciencia-abierta/index.html#necesitamos-cambios",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Necesitamos cambios",
+    "text": "Necesitamos cambios\n\nEl cambio estructural suele evocarse en el plano institucional y expresarse mediante nuevas normas y reglas; el cambio procedimental se refiere a comportamientos y conjuntos de prácticas de uso común en el proceso de investigación; el cambio comunitario engloba la forma en que evoluciona el trabajo y la colaboración dentro de la comunidad científica. Korbmacher et al. (2023)"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#ciencia-abierta",
+    "href": "slides/ciencia-abierta/index.html#ciencia-abierta",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Ciencia abierta",
+    "text": "Ciencia abierta\n\n\n\n«Constructo inclusivo que combina diversos movimientos y prácticas con el fin de que los conocimientos científicos multilingües estén abiertamente disponibles y sean accesibles para todos, así como reutilizables por todos, se incrementen las colaboraciones científicas y el intercambio de información en beneficio de la ciencia y la sociedad, y se abran los procesos de creación, evaluación y comunicación de los conocimientos científicos a los agentes sociales más allá de la comunidad científica tradicional. La ciencia abierta comprende todas las disciplinas científicas y todos los aspectos de las prácticas académicas, incluidas las ciencias básicas y aplicadas, las ciencias naturales y sociales y las humanidades, y se basa en los siguientes pilares clave: conocimiento científico abierto, infraestructuras de la ciencia abierta, comunicación científica, participación abierta de los agentes sociales y diálogo abierto con otros sistemas de conocimiento.» UNESCO (2021)\n\n\n\n\n\nAlgunos beneficios de la ciencia abierta. UNESCO (2021)\n\n\n\n\nPolítica Nacional De Ciencia Abierta 2022-2031, Resolución 0777 del 2022"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#valores-fundamentales-y-principios-rectores",
+    "href": "slides/ciencia-abierta/index.html#valores-fundamentales-y-principios-rectores",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Valores fundamentales y principios rectores",
+    "text": "Valores fundamentales y principios rectores\n\nValores fundamentales y principios rectores de la ciencia abierta. UNESCO (2021)"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#taxonomía-de-la-ciencia-abierta",
+    "href": "slides/ciencia-abierta/index.html#taxonomía-de-la-ciencia-abierta",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Taxonomía de la ciencia abierta",
+    "text": "Taxonomía de la ciencia abierta\n\n\n\n\n\n\n\n\n\n\n\n\n\nImagen original (Da Silveira et al., 2023), https://zenodo.org/records/7858978. FAIR: Findable, Accessible, Interoperable, Reusable."
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#investigación-abierta-reproducible",
+    "href": "slides/ciencia-abierta/index.html#investigación-abierta-reproducible",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Investigación abierta reproducible",
+    "text": "Investigación abierta reproducible\n\n\n\nReproducibilidad significa que los datos y el código de investigación están disponibles para que otros sean capaces de obtener los mismos resultados alcanzados en sus trabajos. Este concepto está íntimamente relacionado con el de replicabilidad, el acto de repetir una metodología científica con el objetivo de alcanzar conclusiones similares. Estos conceptos son elementos centrales de la investigación empírica.\nMejorar la reproducibilidad conduce a aumentar el rigor y la calidad de los trabajos científicos y, por tanto, a una mayor confianza en la ciencia. Bezjak et al. (2018)\n\n\n\n\n\nLa reproducibilidad se aplica directamente al método científico. Bezjak et al. (2018)"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#repetibilidad-replicabilidad-reproducibilidad-y-otras-erres",
+    "href": "slides/ciencia-abierta/index.html#repetibilidad-replicabilidad-reproducibilidad-y-otras-erres",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Repetibilidad, Replicabilidad, Reproducibilidad, y otras erres",
+    "text": "Repetibilidad, Replicabilidad, Reproducibilidad, y otras erres\n\n\nComparación de términos. Traducido de Plesser (2018).\n\n\n\n\n\n\n\nGoodman et al. (2016)\nClaerbout & Karrenbach (1992)\nAssociation for Computing Machinery (2020)\n\n\n\n\n\n\nRepetibilidad\n\n\nReproducibilidad de los métodos\nReproducibilidad\nReplicabilidad\n\n\nReproducibilidad de los resultados\nReplicabilidad\nReproducibilidad\n\n\nReproducibilidad inferencial\n\n\n\n\n\n\n\n\n\n\nExplicación de la terminología sobre reproducibilidad y replicabilidad. Whitaker (2017)."
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#el-espectro-de-la-reproducibilidad",
+    "href": "slides/ciencia-abierta/index.html#el-espectro-de-la-reproducibilidad",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "El espectro de la reproducibilidad",
+    "text": "El espectro de la reproducibilidad\n\n\n\n\n\n\n\n\n\nEspectro de reproducibilidad más común. Peng (2011).\n\n\n\n\n\n\n\n\n\nCompartir datos y código se considera suficiente para que muchos reproduzcan el análisis de datos. Sin embargo, esto no es suficiente. Akalin (2021)."
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#cómo-fomentar-la-investigación-abierta-reproducible",
+    "href": "slides/ciencia-abierta/index.html#cómo-fomentar-la-investigación-abierta-reproducible",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Cómo fomentar la investigación abierta reproducible",
+    "text": "Cómo fomentar la investigación abierta reproducible\n\nEstrategias para hacer de la investigación reproducible y la formación en ciencia abierta la norma en las instituciones de investigación. Kohrs et al. (2023)"
+  },
+  {
+    "objectID": "slides/ciencia-abierta/index.html#referencias",
+    "href": "slides/ciencia-abierta/index.html#referencias",
+    "title": "Ciencia Abierta y Reproducible",
+    "section": "Referencias",
+    "text": "Referencias\n\n\nAkalin, A. (2021). Scientific data analysis pipelines and reproducibility. https://towardsdatascience.com/scientific-data-analysis-pipelines-and-reproducibility-75ff9df5b4c5\n\n\nAssociation for Computing Machinery. (2020). Artifact review and badging - current. https://www.acm.org/publications/policies/artifact-review-and-badging-current\n\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452-454. https://doi.org/10.1038/533452a\n\n\nBezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). Open science training handbook. Zenodo. https://doi.org/10.5281/ZENODO.1212496\n\n\nCampitelli, E., & Corrales, P. (2024). An R reproducibility toolkit for the practical researcher. https://reproducibility.rocks/\n\n\nClaerbout, J. F., & Karrenbach, M. (1992). Electronic documents give reproducible research a new meaning. SEG Technical Program Expanded Abstracts 1992, 601-604. https://doi.org/10.1190/1.1822162\n\n\nDa Silveira, L., Calixto Ribeiro, N., Melero, R., Mora-Campos, A., Piraquive-Piraquive, D. F., Uribe Tirado, A., Machado Borges Sena, P., Polanco Cortés, J., Santillán-Aldana, J., Couto Corrêa Da Silva, F., Ferreira Araújo, R., Enciso Betancourt, A. M., & Fachin, J. (2023). Taxonomía de la ciencia abierta: revisada y ampliada. Encontros Bibli: revista eletrônica de biblioteconomia e ciência da informação, 28, 1-24. https://doi.org/10.5007/1518-2924.2023.e91712/53422\n\n\nFanelli, D. (2018). Is science really facing a reproducibility crisis, and do we need it to? Proceedings of the National Academy of Sciences, 115(11), 2628-2631. https://doi.org/10.1073/pnas.1708272114\n\n\nGoodman, S. N., Fanelli, D., & Ioannidis, J. P. A. (2016). What does research reproducibility mean? Science Translational Medicine, 8(341). https://doi.org/10.1126/scitranslmed.aaf5027\n\n\nKohrs, F. E., Auer, S., Bannach-Brown, A., Fiedler, S., Haven, T. L., Heise, V., Holman, C., Azevedo, F., Bernard, R., Bleier, A., Bössel, N., Cahill, B. P., Castro, L. J., Ehrenhofer, A., Eichel, K., Frank, M., Frick, C., Friese, M., Gärtner, A., … Weissgerber, T. L. (2023). Eleven strategies for making reproducible research and open science training the norm at research institutions. eLife, 12, e89736. https://doi.org/10.7554/eLife.89736\n\n\nKorbmacher, M., Azevedo, F., Pennington, C. R., Hartmann, H., Pownall, M., Schmidt, K., Elsherif, M., Breznau, N., Robertson, O., Kalandadze, T., Yu, S., Baker, B. J., O’Mahony, A., Olsnes, J. Ø.-S., Shaw, J. J., Gjoneska, B., Yamada, Y., Röer, J. P., Murphy, J., … Evans, T. (2023). The replication crisis has led to positive structural, procedural, and community changes. Communications Psychology, 1(1), 3. https://doi.org/10.1038/s44271-023-00003-2\n\n\nLopp, S. (2019). Reproducible Environments. https://rviews.rstudio.com/2019/04/22/reproducible-environments/\n\n\nOza, A. (2023). Reproducibility trial: 246 biologists get different results from same data sets. Nature, 622(7984), 677-678. https://doi.org/10.1038/d41586-023-03177-1\n\n\nPeng, R. D. (2011). Reproducible Research in Computational Science. Science, 334(6060), 1226-1227. https://doi.org/10.1126/science.1213847\n\n\nPlesser, H. E. (2018). Reproducibility vs. replicability: a brief history of a confused terminology. Frontiers in Neuroinformatics, 11, 76. https://doi.org/10.3389/fninf.2017.00076\n\n\nPosit Software. (2022). RStudio User Guide - renv. https://docs.posit.co/ide/user/ide/guide/environments/r/renv.html\n\n\nPosit Software. (2024). Reproducible Environments. https://solutions.posit.co/envs-pkgs/environments/\n\n\nSlingsby, J. (2024). A minimal introduction to reproducible research. https://www.ecologi.st/data-management/\n\n\nUNESCO. (2021). Recomendación de la UNESCO sobre la Ciencia Abierta. https://doi.org/10.54677/YDOG4702\n\n\nWhitaker, K. (2017). Showing your working: a how to guide to reproducible research. https://doi.org/10.6084/m9.figshare.4244996.v2\n\n\n\n\n\n\nInvestigación Reproducible con Quarto"
   }
 ]

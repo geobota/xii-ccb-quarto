@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://geobota.github.io/xii-ccb-quarto/preparacion/index.html</loc>
-    <lastmod>2024-10-31T15:04:59.914Z</lastmod>
+    <lastmod>2024-10-31T19:49:49.365Z</lastmod>
+  </url>
+  <url>
+    <loc>https://geobota.github.io/xii-ccb-quarto/slides/intro-quarto/index.html</loc>
+    <lastmod>2024-11-03T04:28:13.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://geobota.github.io/xii-ccb-quarto/slides/intro/index.html</loc>
+    <lastmod>2024-11-03T04:27:17.013Z</lastmod>
+  </url>
+  <url>
+    <loc>https://geobota.github.io/xii-ccb-quarto/slides/workflow/index.html</loc>
+    <lastmod>2024-11-03T04:24:48.156Z</lastmod>
   </url>
   <url>
     <loc>https://geobota.github.io/xii-ccb-quarto/index.html</loc>
-    <lastmod>2024-10-31T15:10:21.356Z</lastmod>
+    <lastmod>2024-10-31T19:49:49.196Z</lastmod>
+  </url>
+  <url>
+    <loc>https://geobota.github.io/xii-ccb-quarto/slides/git-github/index.html</loc>
+    <lastmod>2024-11-03T04:29:02.480Z</lastmod>
+  </url>
+  <url>
+    <loc>https://geobota.github.io/xii-ccb-quarto/slides/intro-r/index.html</loc>
+    <lastmod>2024-11-03T03:24:52.180Z</lastmod>
+  </url>
+  <url>
+    <loc>https://geobota.github.io/xii-ccb-quarto/slides/ciencia-abierta/index.html</loc>
+    <lastmod>2024-11-03T04:27:41.203Z</lastmod>
   </url>
 </urlset>
