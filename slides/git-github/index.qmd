@@ -14,8 +14,8 @@ format:
     controls: true
     touch: false
     # chalkboard: true
-    logo: "https://github.com/geobota/geobota.github.io/blob/main/images/logo/banner.png?raw=true"
-    footer: "[alexespinosaco](http://alexespinosaco.github.io)"
+    logo: "https://github.com/geobota/geobota.github.io/blob/main/images/xii-ccb/xii-ccb-logo.png?raw=true"
+    footer: "[Investigación Reproducible con Quarto](https://geobota.github.io/xii-ccb-quarto/)"
 bibliography: references.bib
 ---
 

@@ -20,7 +20,7 @@ format:
     touch: false
     # chalkboard: true
     logo: "https://github.com/geobota/geobota.github.io/blob/main/images/xii-ccb/xii-ccb-logo.png?raw=true"
-    footer: "[Etnobotánica Cuantitativa en R](https://geobota.github.io/xii-ccb-etnobotanica/)"
+    footer: "[Investigación Reproducible con Quarto](https://geobota.github.io/xii-ccb-quarto/)"
 bibliography: references.bib
 ---
 
