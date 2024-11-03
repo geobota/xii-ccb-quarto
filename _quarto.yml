@@ -33,6 +33,20 @@ website:
         href: index.qmd
       - text: "Preparación"
         href: preparacion/index.qmd
+      - text: "Día 1"
+        menu:
+          - text: "Introducción al curso"
+            href: slides/intro/
+          - text: "Ciencia abierta"
+            href: slides/ciencia-abierta/
+          - text: "Introducción a Quarto"
+            href: slides/intro-quarto/
+          - text: "Workflow"
+            href: slides/workflow/
+          - text: "Git y GitHub"
+            href: slides/git-github/
+          - text: "Introducción a R"
+            href: slides/intro-r/
       - text: "Otros cursos"
         menu:
           - text: "Etnobotánica Cuantitativa en R"

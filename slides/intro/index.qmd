@@ -66,8 +66,7 @@ countdown_timer <- function(
 -   Ciencia abierta y reproducible
 -   Ciencia de datos
 -   `r fontawesome::fa("mastodon")` [\@alexespinosaco\@mstdn.social](https://mstdn.social/@alexespinosaco)
-:::
-:::
+
 
 ## Antes de comenzar
 
@@ -84,7 +83,7 @@ countdown_timer <- function(
 ::: {.column .fragment .incremental width="50%"}
 ### Enseñaremos
 
--   <img src="https://raw.githubusercontent.com/tidyverse/tidyverse.org/refs/heads/main/static/images/favicon.ico" style="display: inline-block; margin: 0; margin-bottom: -2px; height: 35px;"/></img> R con enfoque en el tidyverse para análisis reproducibles
+<!-- -   <img src="https://raw.githubusercontent.com/tidyverse/tidyverse.org/refs/heads/main/static/images/favicon.ico" style="display: inline-block; margin: 0; margin-bottom: -2px; height: 35px;"/></img> R con enfoque en el tidyverse para análisis reproducibles -->
 
 -   `r fontawesome::fa("laptop-code")` Elaboración de documentos reprodubcibles usando Quarto
 :::
@@ -135,8 +134,10 @@ install.packages(
 
 ::: {.incremental}
 -   Introducción al curso
--   Introducción a la ciencia abierta
+-   Introducción a la Ciencia Abierta
 -   Introducción a Quarto
+-   Workflow
+-   Git y GitHub
 -   Introducción a R
 :::
 

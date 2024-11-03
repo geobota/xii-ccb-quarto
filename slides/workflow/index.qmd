@@ -21,7 +21,7 @@ format:
     # chalkboard: true
     code-block-height: 850px
     logo: "https://github.com/geobota/geobota.github.io/blob/main/images/xii-ccb/xii-ccb-logo.png?raw=true"
-    footer: "[Etnobotánica Cuantitativa en R](https://geobota.github.io/xii-ccb-etnobotanica/)"
+    footer: "[Investigación Reproducible Quarto](https://geobota.github.io/xii-ccb-etnobotanica/)"
 bibliography: references.bib
 csl: apa.csl
 nocite: |
@@ -275,7 +275,7 @@ La barra de herramientas de proyectos se encuentra en la esquina superior derech
 #| label: timer-2
 #| echo: false
 
-countdown_timer(5)
+countdown_timer(2)
 ```
 
 ## Rutas
