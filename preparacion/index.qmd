@@ -12,7 +12,7 @@ Debido a las restricciones impuestas por la universidad organizadora, se requier
 :::
 
 ::: {.callout-important}
-Si está inscrito al curso, descargue los materiales (clone el repositorio) del curso  <https://github.com/geobota/quarto-workshop> el sábado 2 de noviembre por la mañana.
+Si está inscrito al curso, descargue los materiales (clone el repositorio) del curso  <https://github.com/geobota/quarto-workshop> el domingo 3 de noviembre por la mañana.
 :::
 
 ::: {.callout-important}
@@ -44,7 +44,7 @@ install.packages(
 ```
 
 ::: {.callout-important}
-Si está inscrito al curso, descargue los materiales (clone el repositorio) del curso  <https://github.com/geobota/quarto-workshop> el sábado 2 de noviembre por la mañana.
+Si está inscrito al curso, descargue los materiales (clone el repositorio) del curso  <https://github.com/geobota/quarto-workshop> el domingo 3 de noviembre por la mañana.
 :::
 
 ::: {.callout-note}
@@ -349,7 +349,7 @@ Ir a <https://gitforwindows.org>. Hacer clic en **Download**. Esto iniciara la d
 ## Descargar los archivos (clonar el repositorio) del curso
 
 ::: {.callout-important}
-Si está inscrito al curso, descargue los materiales (clone el repositorio) del curso  <https://github.com/geobota/quarto-workshop> el sábado 2 de noviembre por la mañana.
+Si está inscrito al curso, descargue los materiales (clone el repositorio) del curso  <https://github.com/geobota/quarto-workshop> el domingo 3 de noviembre por la mañana.
 :::
 
 -   Ir a <https://github.com/geobota/quarto-workshop>
