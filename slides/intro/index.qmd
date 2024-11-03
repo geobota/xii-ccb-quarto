@@ -86,7 +86,7 @@ countdown_timer <- function(
 
 -   <img src="https://raw.githubusercontent.com/tidyverse/tidyverse.org/refs/heads/main/static/images/favicon.ico" style="display: inline-block; margin: 0; margin-bottom: -2px; height: 35px;"/></img> R con enfoque en el tidyverse para análisis reproducibles
 
--   `r fontawesome::fa("laptop-code")` Sintaxis de Quarto para la elaboración de documentos reprodubcibles
+-   `r fontawesome::fa("laptop-code")` Elaboración de documentos reprodubcibles usando Quarto
 :::
 :::
 
@@ -133,13 +133,11 @@ install.packages(
 
 ## Programación 
 
-
 ::: {.incremental}
 -   Introducción al curso
+-   Introducción a la ciencia abierta
 -   Introducción a Quarto
 -   Introducción a R
--   Análisis descriptivos
--   Índices etnobotánicos
 :::
 
 #  {background-color="#009E73" transition="slide-in"}
