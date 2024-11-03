@@ -33,7 +33,7 @@ website:
         href: index.qmd
       - text: "Preparación"
         href: preparacion/index.qmd
-      - text: "Día 1"
+      - text: "Presentaciones"
         menu:
           - text: "Introducción al curso"
             href: slides/intro/
